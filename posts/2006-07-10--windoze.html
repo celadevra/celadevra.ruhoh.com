@@ -1,0 +1,17 @@
+---
+layout: post
+title: "再次诅咒万恶的 Windoze"
+date: 2006-07-10
+comments: false
+---
+
+<div class='post'>
+周六下午本来风平浪静，正在 chat 的时候突然 qterm 不动了，然后 gtalk 和 msn 相继表示我被踢下了线。等了很久，再试图连接，还是失败。<br/><br/>估计是学校  Information Service 在升级路由，于是等了一夜，第二天却依然如故。纳闷之余翻出一张  Ubuntu 的 LiveCD 试验了一下，居然可以上网，只是连接时断时续。于是重新装了  Debian —— 可惜我的 FreeBSD 才装好没多久，又要格式化了。当天下午重回互联网。<br/><br/>虽然如此，gtalk  隔几分钟就断线，qterm 不时地发呆，在加上从学校机房连自己的机器也是断断续续，总之还是不爽。于是试着 traceroute，没有什么结果。猜想是不是什么人在攻击我的机器，就装了 ethereal 抓包。看了一下掉线前后的记录，发现有两个 MAC 地址，一个 Cisco 的，一个三星的，都在争着说“我是10.3.1.1！”（那是我所在网段的网关）。可怜我还以为三星的那个地址是新的网关，于是用 arp -s 把它指定到 10.3.1.1 上，立即断网没商量，现在想起来真是猪头啊。<br/><br/>重新 arp -s 10.3.1.1  到正确的 MAC 地址上，各种服务立马正常了。那个三星的网卡这两天一直在不停地发欺骗数据包，它的地址也通过 arp 得到了，原来离我不远，想必是某人的三星笔记本感染病毒了……都是 Windows 惹的祸，还让我把 FreeBSD 格式化了……不过似乎 FreeBSD 接收假的 ARP 数据包后就认准它就是网关，真网关的 ARP 它也不认了，所以当时在 FreeBSD 下我也没法通过 ethereal 抓包，这重装系统浪费的时间只好当交学费了。</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>wenmang</div>
+<div class='content'>
+离这次悲剧已经时隔多日，只好补上pat若干~<br>我的电脑也接近崩溃边缘，且病毒无数<br>打算弄完稿子就带它到明妃那里去手术</div>
+</div>
+</div>

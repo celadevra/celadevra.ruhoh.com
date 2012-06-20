@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Defining confined/unconfined layer</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.4839116670380691" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.7908277448938328" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.5455790984232692" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>Defining confined/unconfined layer </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class='post'>
+This is one problem I encountered in the research.  Now my groundwater model has 3 layers, representing acrotelm, catotelm and mineral soil respectively.  The 1st layer (uppermost) is an unconfined layer with no question.  But what about the 2nd?  Is the permeability of mineral soil much less than that of catotelm?  Besides, what if the water level is below the top of mineral soil level?  Can I consider it unconfined layer then?<br/><br/>But Bouwer&#39;s (1978) description of unconfined aquifer is &quot;[t]here is no clay or other restricting material at the top of the groundwater, so that groundwater levels are free to rise or fall.&quot;&nbsp; Thus the mineral soil under peat can be considered as unconfined aquifer when the watertable is below its top.</div>
+<h2>Comments</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>Snake</div>
+<div class='content'>
+A book maybe useful on environmental modelling theories:<br><br>John Wainwright and Mark Mulligan (eds.). Environmental Modelling: Finding Simplicity in Complexity.  John Wiley &amp; Sons, Ltd. Chichester. 2004<br><br>My quota for borrowing books is reached so I have to leave this for future reference.</div>
+</div>
+<div class='comment'>
+<div class='author'>Vineet Reynolds</div>
+<div class='content'>
+Hi,<br>Sorry to be off topic, but I had noticed you had blogrolled my wordpress.com blog. I&#39;d like to point out that it doesn&#39;t contain the most recent posts of mine. You can hop over to my blog of 1st preference @ <a href="http://princeoflightning.blogspot.com" rel="nofollow" rel="nofollow">http://princeoflightning.blogspot.com</a> to get your hands full on the latest posts!!<br>Anyway, you&#39;ve got some nice content here especially about equity (I work for a BFSI company so I found that interesting).<br>Cheers,<br>Vineet Reynolds.</div>
+</div>
+</div>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2006/04/30/%E5%9B%9B%E6%9C%88%E5%BF%86%E7%9B%9B%E5%A4%8F/" title="四月忆盛夏">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2006/05/02/%E6%88%91%E4%BB%AC%E5%BA%94%E5%BD%93%E6%80%8E%E6%A0%B7%E7%88%B1%E5%9B%BD/" title="我们应当怎样爱国？">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2006-05-01</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

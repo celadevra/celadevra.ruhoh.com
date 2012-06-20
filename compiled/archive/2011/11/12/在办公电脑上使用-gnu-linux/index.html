@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>在办公电脑上使用 GNU/Linux</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8569682867952071" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.6087998336436414" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8410979186420582" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>在办公电脑上使用 GNU/Linux </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>Windows 7 的用户体验相对它的前几代还是不错的。但是，这个操作系统的设计好像是把向下兼容性和向傻瓜兼容性放在易用性和一致性之前来考虑。所以使用的时候经常会遇到很抓狂的时刻。比如它的补丁更新非常频繁，而又往往需要重启系统才能生效。如果你在使用的时候进行了更新，那么它至少4小时就会蹦出对话框提醒你一次。如果你不胜其扰，打算等到关机的时候让它自动更新，那么就会有这样的风险：当你关闭笔记本准备带着它走人的时候，Windows 告诉你：正在安装72个更新，请不要关闭计算机电源……如果这时候你要赶飞机，就等着着急吧。而且在 Windows 上使用 SSH、Emacs、LaTeX……等等很好用的工具总有这样那样的麻烦。所以我总是有把工作电脑换成 Linux 或者 Mac 的冲动。</p>
+
+<p>当然，在办公室里呆过的人都知道，要把整个工作环境转成 *nix 是非常困难的。特别在我的办公环境里还是有必须用 IE 打开的网站之类东西。所以目前我只把笔记本换成了 Ubuntu 11.10，这样我还可以通过 RDC 访问 Windows 7 系统的台式电脑。但是大多数工作都将在 Ubuntu 上做了，文件通过 Amazon S3/Jungle Disk/rsync 与台式机同步，并进行远端备份。</p>
+
+<p><a href="http://www.flickr.com/photos/celadevra/6335765651/"><img src="http://farm7.static.flickr.com/6110/6335765651_4e7b3230b2.jpg" alt="Screenshot-2011-11-12 11:31:42" /></a></p>
+
+<p>在转到 Mac 之前，我用过几年 Gentoo，觉得非常爽快。不过这次实在没有太多时间慢慢配置了，办公环境毕竟不像学生时代那样允许我们慢慢鼓捣系统。所以我选了一般来说开箱可用的 Ubuntu（还好当年没有参加关于它的口水战，这是很没意义的事）。新的 Unity 界面现在相当成熟了，相信12.04会更好。整个系统的可用性非常好，使用起来比较顺畅，特别是在 Linux 下使用 Emacs 才是最原生的体验。Office 系统我用的是永中精简版，这样与同事交换文件也没有太大问题。</p>
+
+<p>现在都有冲动把 Mac 的系统都换成 Linux 了，当然，只是冲动而已。等现在这台 Mac 退役再考虑装个 Gentoo 吧。</p>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2011/10/17/%E4%B8%B9%E9%BA%A6%E6%B3%95%E5%9B%BD%E6%8E%A0%E5%BD%B1/" title="丹麦法国掠影">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2011/11/21/%E5%90%84%E5%BC%8F%E7%96%B2%E6%83%AB-%E8%AF%A5%E5%9D%9A%E6%8C%81%E7%9A%84%E8%BF%98%E8%A6%81%E5%9D%9A%E6%8C%81/" title="各式疲惫，该坚持的还要坚持">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2011-11-12 10:11:00</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+      <li>
+        <a href="/categories#道-ref">道 <span>18</span></a>
+      </li>    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+      <li>
+        <a href="/tags#computing-ref">computing <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#hacking-ref">hacking <span>4</span></a>
+      </li>      <li>
+        <a href="/tags#ubuntu-ref">ubuntu <span>1</span></a>
+      </li>    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

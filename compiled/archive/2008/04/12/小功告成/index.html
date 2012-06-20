@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>小功告成</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.19322625471387633" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.7868321811877498" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.6650842699817807" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>小功告成 </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class='post'>
+在熬了两夜，整整两天连登陆学校邮箱都顾不上的不断 scripting 和 debug 之后，我总算完成了研究地区的一部分净初级生产力分布图。<br/><a name='more'></a><br/>以下是完成最后一步所需的 Bourne (Again?) Shell script，在一台连 seq 都没有的 Windows 机器上，MSYS 1.0 和 GRASS 6.3.0CVS 环境下运行通过：<br/><pre lang="bash" line="1"><br/>#!/bin/sh<br/># calculate NPP using CASA model in GRASS<br/><br/># import GLDAS data and flip it<br/>cd /c/Users/ofnir/images/GLDAS<br/>#rm evapoGLDAS_CLM10_M_WB_A198106.grb.bin<br/>#rm tempeGLDAS_CLM10_M_EB_A198106.grb.bin<br/>ls evapoGLDAS*.bin > filelist2<br/>ls tempeGLDAS*.bin > filelist3<br/>for ((i=1;i<=270;i=i+1)); do<br/>r.in.bin.exe -f input=`head.exe -n $i filelist2 | tail.exe -n 1` output=`head.exe -n $i filelist2 | tail.exe -n 1` bytes=1 north=90N south=60S east=180E west=180W rows=150 cols=360 anull=9.999e+20 --overwrite<br/>g.region.exe rast=`head.exe -n $i filelist2 | tail.exe -n 1`<br/>r.out.ascii.exe input=`head.exe -n $i filelist2 | tail.exe -n 1` output=/c/Users/ofnir/images/GLDAS/test.txt dp=8 null=*<br/>head.exe -n 6 /c/Users/ofnir/images/GLDAS/test.txt > /c/Users/ofnir/images/GLDAS/evapo.txt<br/>for ((j=1;j<=150;j=j+1)); do<br/>tail.exe -n $j /c/Users/ofnir/images/GLDAS/test.txt | head -n 1 >> /c/Users/ofnir/images/GLDAS/evapo.txt<br/>done;<br/>r.in.ascii.exe -f input=/c/Users/ofnir/images/GLDAS/evapo.txt output=`head.exe -n $i filelist2 | tail.exe -n 1` 'mult=1.0 or read from header' 'nv=* or read from header' --overwrite<br/>done;<br/><br/>for ((i=1;i<=270;i=i+1)); do<br/>r.in.bin.exe -f input=`head.exe -n $i filelist3 | tail.exe -n 1` output=`head.exe -n $i filelist3 | tail.exe -n 1` bytes=1 north=90N south=60S east=180E west=180W rows=150 cols=360 anull=9.999e+20 --overwrite<br/>g.region.exe rast=`head.exe -n $i filelist3 | tail.exe -n 1`<br/>r.out.ascii.exe input=`head.exe -n $i filelist3 | tail.exe -n 1` output=/c/Users/ofnir/images/GLDAS/test.txt dp=2 null=*<br/>head.exe -n 6 /c/Users/ofnir/images/GLDAS/test.txt > /c/Users/ofnir/images/GLDAS/tempe.txt<br/>for ((j=1;j<=150;j=j+1)); do<br/>tail.exe -n $j /c/Users/ofnir/images/GLDAS/test.txt | head -n 1 >> /c/Users/ofnir/images/GLDAS/tempe.txt<br/>done;<br/>r.in.ascii.exe -f input=/c/Users/ofnir/images/GLDAS/tempe.txt output=`head.exe -n $i filelist3 | tail.exe -n 1` 'mult=1.0 or read from header' 'nv=* or read from header' --overwrite<br/>done;<br/><br/>for i in 1 3 5 7 9 11; do<br/># calculate W scalar, part I<br/>echo "Calculating wscalar$i using data of month $(((i+1)/2+6))"<br/>r.mapcalc "wscalar$i"="min(1,0.5+(`head.exe -n $(((i+1)/2)) filelist2 | tail.exe -n 1`*2592000/atpet`printf "%02d" $(((i+1)/2+6))`))"<br/>i=$((i+1))<br/>echo "Calculating wscalar$i using data of month $(((i+1)/2+6))"<br/>r.mapcalc "wscalar$i"="min(1,0.5+(`head.exe -n $(((i+1)/2)) filelist2 | tail.exe -n 1`*2592000/atpet`printf "%02d" $(((i+1)/2+6))`))"<br/>done;<br/><br/>for i in 13 37 61 85 109 133 157 181 205 229 253 277 301 325 349 373 397 421 445 469 493 517; do<br/># calculate W scalar, part II<br/>for ((j=1;j<=12;j=j+1)); do<br/>echo "Calculating wscalar$i using data of month $j"<br/>r.mapcalc "wscalar$i"="min(1,0.5+(`head.exe -n $(((i+1)/2)) filelist2 | tail.exe -n 1`*2592000/atpet`printf "%02d" $j`))"<br/>i=$((i+1))<br/>echo "Calculating wscalar$i using data of month $j"<br/>r.mapcalc "wscalar$i"="min(1,0.5+(`head.exe -n $(((i+1)/2)) filelist2 | tail.exe -n 1`*2592000/atpet`printf "%02d" $j`))"<br/>i=$((i+1))<br/>done;<br/>done;<br/><br/>for ((i=1;i<=270;i=i+1)); do<br/># calculate T scalar<br/>amap=`head.exe -n 255 filelist3 | tail.exe -n 1`<br/>bmap=`head.exe -n $i filelist3 | tail.exe -n 1`<br/>echo "Calculating tscalar$((2*i-1)) and tscalar$((2*i))"<br/>r.mapcalc "tscalar$((2*i-1))"="(0.8+0.02*($amap-273.15)-0.05*($amap-273.15)^2)*(1/(1+exp(0.2*(($amap-273.15)-10-($bmap-273.15))))*1/(1+exp(0.3*(-($amap-273.15)-10+($bmap-273.15)))))"<br/>r.mapcalc "tscalar$((2*i))"="(0.8+0.02*($amap-273.15)-0.05*($amap-273.15)^2)*(1/(1+exp(0.2*(($amap-273.15)-10-($bmap-273.15))))*1/(1+exp(0.3*(-($amap-273.15)-10+($bmap-273.15)))))"<br/>done;<br/><br/># combine everything together<br/>g.region rast=regionFPAR540<br/>for ((i=1;i<=540;i=i+1)); do<br/>amap=regionFPAR$i<br/>bmap=wscalar$i<br/>cmap=tscalar$i<br/>r.mapcalc "NPP$i"="$amap*$bmap*$cmap*`head -n $i /c/Users/ofnir/Desktop/imageprocess/auxillary/tsi.txt | tail -n 1`"<br/>done;</pre><br/>其中前面两个 for 循环是为了把 GLDAS[1. <a href="http://ldas.gsfc.nasa.gov/" target="_blank">Global Land Data Assimilation Systems</a> The data used in this study were acquired as part of the mission of NASA's Earth Science Division and archived and distributed by the Goddard Earth Sciences (GES) Data and Information Services Center (DISC).] 的二进制格式图像（预先用 wgrib[2. <a href="http://www.cpc.ncep.noaa.gov/products/wesley/wgrib.html" target="_blank">WGRIB</a> is a program to manipulate, inventory and decode GRIB files. ] 从 GRIB 打包格式转换为二进制格式）读入 GRASS。由于 GLDAS CLM10 数据的扫描是从南到北，与 GRASS 的定义相反，我只好用<code>r.out.ascii</code> 将其读出，用很笨的办法重排各行数据，再重新按 ASCII 读入。<br/><br/>用于估算 NPP 的方法是 Carnegie-Ames-Stanford Approach（CASA）模型[3. Field, Christopher B., James T. Randerson, and Carolyn M. Malmstrom. 1995. Global net primary production: Combining ecology and remote sensing. Remote Sensing of Environment 51, no. 1:74-88. ]，其简单形式是$$!NPP(x,t) = APAR(x,t) \cdot \epsilon(x,t)$$ 其中 APAR 是被植物吸收的光合作用活性照射，$$\epsilon(x,t)$$是当时当地植物的光合作用效率。这个公式可以扩展为$$!NPP = S(x,t) \cdot FPAR(x,t) \cdot \epsilon^{*} \cdot T_{1}(x,t)\cdot T_{2}(x,t) \cdot W(x,t)$$ 其中$$S(x,t)$$是表面辐照，定义为总太阳辐照（Total Solar Surface Irradiance）的一半，$$FPAR(x,t)$$ 是光合作用活性照射中可被植物吸收的比例，是 NDVI 的函数，$$T_{1}$$、$$T_{2}$$和$$W$$是与温度和蒸发有关的因子。$$T_{1}$$与 NDVI 峰值时的气温有关，$$T_{2}$$除了与 NDVI 峰值时气温有关外，也与当时当地气温有关。计算公式为$$!T_{1}(x) = 0.8 + 0.02 \times T_{opt}(x) - 0.0005 \times [T_{opt}(x)]^{2}$$ $$!T_{2}(x,t) = C \cdot 1 / {1 + exp[0.2 \cdot (T_{opt}(x) - 10 - T(x,t)]} \cdot 1 / {1 + exp[0.3 \cdot (-T_{opt}(x) - 10 + T(x,t)]}$$。温度信息是从 GLDAS 数据中提取的。这部分计算在代码53--60行实现。<br/><br/>$$W$$ 是在1和$$0.5+\text{Estimated Evapotranspiration}/\text{Potential Evapotranspiration}$$中取最小值，潜在蒸发量是由 UNEP/日本国立环境研究所的 GRID 项目[4. <a href="http://www-cger.nies.go.jp/grid-e/" target="_blank">Global Resource Information Database</a>. UNESCO(1987) through GRID.]取得，估计蒸发量取自 GLADS。计算在代码32--51行实现。$$\epsilon*$$是一个可能全局最大值，需要从现场数据估算。我只是做时序比较，因此就不计算它了。<br/><br/>以下是一些计算结果图像，由于数据分辨率和覆盖不同，可以观察到明显的马赛克:D：<br/><br/><a href="http://farm4.static.flickr.com/3022/2406675049_10e84a759d_o.png" class="lightview" rel="gallery[npp]" title="NPP Aug 1982"><img src="http://farm4.static.flickr.com/3022/2406675049_10e84a759d_o.png" width="90" height="90"/></a><a href="http://farm4.static.flickr.com/3259/2407506958_3dfecbb383_o.png" class="lightview" rel="gallery[npp]" title="NPP Jan 1984"><img src="http://farm4.static.flickr.com/3259/2407506958_3dfecbb383_o.png" width="90" height="90"/></a><a href="http://farm4.static.flickr.com/3123/2407507020_d0d8a71a78_o.png" class="lightview" rel="gallery[npp]" title="NPP Oct 2003"><img src="http://farm4.static.flickr.com/3123/2407507020_d0d8a71a78_o.png" width="90" height="90"/></a><br/><br/>接下来要做的工作是分析图像，并寻找可能替代 GLDAS 的更全面和完备的数据集。</div>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2008/04/09/grass-gis-%E4%B8%AD%E7%9A%84-r-mask-%E5%92%8C-readrast6/" title="GRASS GIS 中的 r.mask 和 readRAST6">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2008/04/15/%E4%B8%8B%E4%B8%80%E6%AD%A5/" title="下一步">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2008-04-12</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

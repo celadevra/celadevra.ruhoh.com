@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>我是怎样使用 Doit.im 和 Org-Mode 搞G（TD）的</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.2116874536108454" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.43636158628625665" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.36126001662339546" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>我是怎样使用 Doit.im 和 Org-Mode 搞G（TD）的 </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <p>今天是2011年的最后一天。这一年是我度过的比较忙碌的一年，因为工作好像越来越多地占用了我的时间。因为不喜欢这一点，所以我也花时间尝试使用了许多时间和任务管理的工具，比如<a href="http://orgmode.org/">Org-Mode</a>，<a href="http://rememberthemilk.com/">Remember the Milk</a>，甚至考虑过另类的<a href="http://evernote.com/">Evernote</a>和昂贵的<a href="http://nozbe.com/">Nozbe</a>。在11月，我开始使用<a href="http://doit.im/">Doit.im</a>，自认为终于找到了一个实践 GTD 比较顺手的工具。</p>
+
+<p>其实，如同很多人已经说过的那样，使用什么工具并不重要，使用 GTD 进行时间管理的关键是能够贯彻 GTD 的思想。但是从我的亲身经验，我也可以说，一套好的工具对养成 GTD 的习惯也是非常重要的。工具不顺手的话，GTD 捕捉-组织-执行-回顾的行程就不会让人觉得做起来有乐趣，也就不能坚持下来。</p>
+
+<p>Doit.im 在这方面好在哪里？我以前使用过很多 GTD 工具，在 Mac 上的两个是我觉得最兼容于 GTD 理念，同时又提供了最好的交互的：<a href="http://culturedcode.com/things/">Things</a> 和 <a href="http://www.omnigroup.com/products/omnifocus/">OmniFocus</a>，当然它们售价也不菲。这两个工具都提供了完整的任务分类支持，OmniFocus 还有功能非常强大的 Review 界面，但它们都只支持 Mac OSX 和 iOS，在中国的办公室环境用起来还不够方便。Doit.im 的前身据说就模仿了 Things 的界面，应该说这是一个不错的起点。难得的是在这个基础上发展起来的 Doit.im 界面渐渐地也开始有了自己的特点，变得更直观和易用：</p>
+
+<p><img src="http://kuapp.com/wp-content/uploads/2009/10/doit.png" alt="Doit.im Air 旧界面" /></p>
+
+<p>Doit.im Air 旧界面</p>
+
+<p><img src="http://enblog.doit.im/wp-content/uploads/2011/12/172.png" alt="Doit.im Web 新界面" /></p>
+
+<p>Doit.im Web 新界面</p>
+
+<p>在同时支持 Web 和移动设备的 GTD 和任务管理工具中，Doit.im 也是界面设计和 GTD 理念贯彻都比较好的一家。</p>
+
+<p>实际使用起来怎么样呢？Doit.im 是我实践 GTD 的中心工具，但它只是工具之一。下面我按照 GTD 方法中的任务流程逐步介绍我是如何使用这些工具的。</p>
+
+<h2 id="section">捕捉</h2>
+
+<p>这可以说是 GTD 实践中最难做好的一环，也是为什么我说养成 GTD 习惯需要一个好的工具的原因。Doit.im 的跨平台优势在这一环节表现得淋漓尽致。对于常坐办公室的死白领，使用 Web 界面就最好，这个界面显然也是把快速捕捉作为一个重要的功能来做的，只要在上方的输入框中快速键入，条目就会直接进入目前用户所在的任务箱子，当然也可以在输入时使用 ^ ! @ # 等标识符直接指定，不过在快速的 Braindump 中，最好直接选中“收集箱”，把各种思绪一条一条都放进去，而不分心思考“这条要不要分解”“这条要不要明天做”这样的问题。这跟写东西时最好使用纯文本编辑器，不分心考虑字体字号等问题是一个道理。</p>
+
+<p>在移动中自然就是使用手机客户端，或者平板客户端，它们也都针对快速捕捉做了优化，瓶颈主要在于掌上设备的输入方式，键盘有些慢，有些时候还影响安全。我还没有试用过 Android 的语音输入功能，不知给力与否。</p>
+
+<p>但有时候你没有带电脑，场合也不适合拿个手机按呀按的，这时候还是要依赖最经典的记录工具：纸笔。经典的康奈尔三块式<a href="http://lsc.sas.cornell.edu/Sidebars/Study_Skills_Resources/cornellsystem.pdf">笔记法</a>在这个场合也能使用。上方大块的区域仍然是用于快速地记录信息，上方的边栏则是用来提炼大块区域中的重点内容，也就是任务过程中需要参考的关键信息，如联系方式、参考资料的地址等。下方的区域则用来放记笔记和整理的时候想到的待做的事，待回到电脑旁再录入 Doit.im。</p>
+
+<h2 id="section-1">整理</h2>
+
+<p>对收集箱中的任务做整理，主要是两个工作：第一是确定任务是否确有必要，并将其分解成独立的动作；第二是区分动作的紧急和重要程度，并赋予它办理时间、情境、所属项目、优先级等属性。</p>
+
+<p>经典的 GTD 方法中其实是没有优先级这一说的。有一种说法是每天早上来凭直觉决定做事的顺序才比较合理。不过以我在办公室环境中的经验，早上划出待做的一二三四五件事，然后做完下班回家的理想情况基本不存在。每天都会出现突然交给你又必须今天做完的事。这种时候，把这些事和今天已经计划要做的事的优先级进行比较就很重要，否则我们的注意力很容易被新出现的任务吸引。Doit.im 和 Remember the Milk 一样，提供了三个不同的优先级，再加上不设置优先级的默认状态，共4个等级，正好可以用来实践<a href="http://www.mindtools.com/pages/article/newHTE_91.htm">紧急-重要四象限</a>的优先级指定方法。</p>
+
+<p>紧急-重要方法我们并不陌生，但在把事务放置到这四象限后如何处理又有不同的看法。在《高效能人士的7个习惯》里，Stephen Covey 是<a href="http://www.dkeener.com/keenstuff/priority.html">这样</a>确定优先级的：先做紧急又重要，再做重要但不紧急，第三做不重要但紧急，最后做其他的任务。这应该是实践中最可能的情景，但我认为第一类——紧急而重要的任务应当在一段时间的 GTD 实践后逐渐减少，只有那些突然出现的未预见情况能作为这一类事务处理，因为我们的忽略而拖到最后一刻的重要事务应该越少越好。如果只是未预见情况的话，一般也不需要大量时间处理。重要而不紧急的工作，应该及早得到处理。所以我是这样在 Doit.im 中分配任务优先级的：</p>
+
+<pre><code>   + 高优先级：重要而不紧急
+   + 中优先级：重要而紧急
+   + 低优先级：不重要但紧急
+   + 无优先级：不重要不紧急
+</code></pre>
+
+<p>上班时间，就打开 Doit.im 的今日待办界面，如果有突然出现的任务，可以直接捕捉、整理进入此界面。这个界面我也是按优先级分类的。我一般力争工作家庭时间能分开，所以情境功能使用得不太多。至于项目，有些人用它来组织子任务，但我认为它更多地是一个告诉用户“这件事下一步怎么做，还需要做什么”的回顾工具，后面再提。</p>
+
+<p>Doit.im 的标签功能可能是最容易让人看出它和 Things 的渊源的设计。我之前用它来标识任务的其他相关方，比如“财务”“老板”就分别表示此任务需要通知财务或者请老板签字，但我发现我实际上很少想得起来加它们。现在我用它们来表示任务估计需要的时间，以便方便根据时间和精力情况选择下个要做的任务。</p>
+
+<h2 id="section-2">执行</h2>
+
+<p>统计任务完成需要的时间，以及 <a href="http://www.pomodorotechnique.com/">Pomodoro</a> 这样的方法并不是 GTD 的核心特性，但我仍然希望 Doit.im 能有这些功能。因为不清楚任务到底花了多少时间，所以事先估计任务需要的时间仍然有难度。目前在这一块，我能做的就是：看手表，以及最小化浏览器窗口避免打扰。</p>
+
+<h2 id="section-3">回顾</h2>
+
+<p>回顾的重要性不用多说，就像爬山时除了一步一个脚印，不时抬头看看身后的路和自己所在的位置也很重要。第一遍读 <em>Get Things Done</em> 的时候，我对于回顾的印象就是每周的回顾，不知道其他人是不是也这样。实践中我的感受是，适合每个人的回顾方式可能都随其工作的内容和性质不同而不同。</p>
+
+<p>除了每周的回顾以外，我现在每天有两次回顾，分别在刚到办公室的时候和下班前。早上的回顾，主要做这样一些事：</p>
+
+<ul>
+  <li>
+    <p>查看收集箱，将其中项目整理并清空</p>
+  </li>
+  <li>
+    <p>查看今日待办箱子，调整优先级，大致确定今天的大事</p>
+  </li>
+  <li>
+    <p>估计任务需要的时间，决定工作的步调</p>
+  </li>
+</ul>
+
+<p>下班前的回顾，或者睡觉前的回顾，主要解决这些问题：</p>
+
+<ul>
+  <li>
+    <p>今天做了什么，这件事以后会做了吗？不会的话总结一下</p>
+  </li>
+  <li>
+    <p>什么做了但没能做完，怎样解决</p>
+  </li>
+  <li>
+    <p>发现任务太大需要分解就分解一下</p>
+  </li>
+  <li>
+    <p>看看项目视图，确认自己目前在项目中的位置</p>
+  </li>
+  <li>
+    <p>看看下一步行动，哪些明天可以做了，放到“明日待办”</p>
+  </li>
+</ul>
+
+<p>头两项细节其实在一天最后是很难想起来的，所以我都是在任务完成后就记录下来。我用来做回顾的工具并不是 Doit.im （好像也没提供这个功能），而是 Org-Mode。因为我觉得这个步骤最好能用比较线性的工具来记录，方便以后查阅，Evernote 之类就不考虑了。在这个文件里，每个月的回顾放在第一层级（“*”），每天的第二次回顾放在第二层级（“**”），回顾中各个项目的完成情况就在第三层级。任务之间的间隙，我除了记录完成情况外，也会看看 Doit.im 里的任务列表，这种 Mini-Review 方法在 43Folders 的<a href="http://www.43folders.com/2006/03/21/gtd-2">一篇文章</a>里也有提及，我和它不谋而合。</p>
+
+<p>每周当然还有每周的回顾。这个回顾更加宏观一些。为了用好这个工具，我先做了一个年度计划，其中按周和我需要做的项目把每周的里程碑都列出来，方便每周回顾的时候对照。我的计划仍然是 Org-Mode 格式的文件，但 MS Excel 想来也不错。每周回顾也放在回顾 Org 文件的第二层级，和之前的每日回顾并列。这个回顾主要解决这些问题：</p>
+
+<ul>
+  <li>
+    <p>我这周做了哪些工作，达到了哪些里程碑，哪些没达到？</p>
+  </li>
+  <li>
+    <p>没有达到的里程碑如何安排？</p>
+  </li>
+  <li>
+    <p>项目进展到了哪一步？下一步是什么？</p>
+  </li>
+  <li>
+    <p>Braindump</p>
+  </li>
+  <li>
+    <p>“择日待办”和“等待”箱子，哪些可以放进去，哪些拿出来？</p>
+  </li>
+  <li>
+    <p>我这周所做的对我的工作职责，乃至2-5年和更远的目标有何帮助？我离这些目标还有多远？</p>
+  </li>
+</ul>
+
+<p>除了体现为文件，每周回顾还包括整理自己的纸质文件，票据等等，这个我目前还没有很系统的方法。（迷之音——作者是个很懒又散漫的人，只有在电脑前面才会有点不一样！）</p>
+
+<p>以上就是我从2008年开始实践 GTD 以来，在换过无数工具和方法之后的心得，也算是一篇另类的年度总结吧，在2011年最后一天发出来，希望2012年生活、工作都更有条理，也希望对你有帮助。</p>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2011/12/09/weekly-review-20111209/" title="Weekly Review: 20111209">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2012/01/06/%E6%97%A7%E5%9F%8E%E5%B0%B1%E6%98%AF%E5%9B%9B%E5%90%88%E9%99%A2/" title="旧城就是四合院？">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    <div id="disqus_thread"></div>
+<script>
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2011-12-31 20:33:37</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+      <li>
+        <a href="/categories#道-ref">道 <span>18</span></a>
+      </li>    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+      <li>
+        <a href="/tags#gtd-ref">gtd <span>1</span></a>
+      </li>      <li>
+        <a href="/tags#planning-ref">planning <span>2</span></a>
+      </li>      <li>
+        <a href="/tags#time management-ref">time management <span>1</span></a>
+      </li>    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

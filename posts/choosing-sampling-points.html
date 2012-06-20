@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Choosing sampling points"
+date: 2006-05-25
+comments: false
+---
+
+<div class='post'>
+I need a score of sampling points to verify the spectral signature of sphagnum patches.&nbsp; My original idea is to extract all pixels on the image.&nbsp; Then use sample function in Excel or similar software to draw out sample points.&nbsp; The problem, however, is that I have a too large dataset with over 200,000 pixels in a single grid cell.&nbsp; To assign x,y values to each of them in one cell will take over 10 hours, and I have 7 such cells....<br/><br/>Thus I will turn to quota sampling method now.&nbsp; I will generate random coordinate pairs once at a time.&nbsp; The randomisation is controlled to ensure the position of the point within the cell.&nbsp; Then I will check if the coordinate pair corresponds to the image of sphagnum patch.&nbsp; If not, generate another pair.&nbsp; This is repeated untill I have enough points for field observation.</div>

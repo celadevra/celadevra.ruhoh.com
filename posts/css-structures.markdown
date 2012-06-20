@@ -4,7 +4,7 @@ title: "CSS Structures"
 date: 2012-06-09 12:26
 comments: true
 categories: 器
-published: false
+type: draft
 ---
 
 从网上找来的关于如何写出结构清晰的 CSS 的一些诀窍，包括多个文件的结构

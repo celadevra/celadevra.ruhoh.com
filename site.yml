@@ -1,10 +1,10 @@
-title : Blog Title
-tagline: Blog Tagline
+title : 互联网暂住客
+tagline: 一只猫的宅家思想
 author :
-  name : Firstname Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
+  name : H. Xu
+  email : snakehsu@gmail.com
+  github : celadevra
+  twitter : celadevra
   feedburner : feedname
 
 navigation :
@@ -13,4 +13,5 @@ navigation :
   - categories.html
   - pages.html
   - about.md
+  - changelog/index.md
   

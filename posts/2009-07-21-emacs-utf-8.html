@@ -1,9 +1,0 @@
----
-layout: post
-title: "Emacs 的 UTF-8 字符集替代模式"
-date: 2009-07-21
-comments: false
----
-
-<div class='post'>
-我的 Emacs 版本是 GNU Emacs 22.3.1 (i386-apple-darwin9.6.0, Carbon Version 1.6.0) of 2009-01-03 on seijiz.local。<br/><br/>今天试图重新配置一下 Emacs 的字体，用 [Inconsolata](http://www.levien.com/type/myfonts/inconsolata.html) 和华文黑体配合显示英文和简繁体中文，使用 UTF-8 作为 language-environment。在 .emacs 里设置后重启，发现有些字符总是使用 japanese-jisx0208 或 japanese-jisx0212 字符集，导致我为中文 UTF-8、BIG-5 和 GB2312 设置的字体和 Emacs 默认的 japanese-jisx* 字体混杂在一起。<br/><br/>搜索了一下，在[这里](http://www.downloadpipe.com/forums/linux/Bug-328196-emacs-snapshot-gtk-mis-detecting-charset-ftopict37467.html)看到类似问题的讨论，试用了一下讨论中建议的 (utf-translate-cjk-load-tables) 函数，没有变化。查看了一下该函数和 utf-translate-cjk-mode 的文档，原来 Emacs 对于 Korean，Chinese-GB/Big5 之外的 language-environment 默认都以 jisx 为默认首选字符集，当字符在多个字符集中有重复时，优先以 jisx 字符集显示。大概是因为使用日文的开发者对于 Emacs/Unicode 的贡献较大的缘故？这个行为大概可以在 lisp/international/utf-8.el 里面改，不过我不打算搞这种难以维护的修改。</div>

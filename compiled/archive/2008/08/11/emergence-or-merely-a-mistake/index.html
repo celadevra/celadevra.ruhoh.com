@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Emergence, or merely a mistake?</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.546188087783928" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.5924300821990499" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.3731142456128539" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>Emergence, or merely a mistake? </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class='post'>
+When I conduct <a href="http://www.snakehsu.info/wordpress/?p=485" target="_blank">DFA</a> on my NDVI data, I found some interesting behaviour of the result.  Apparently the system behaves differently in different spatial scales, which is reflected in the fluctuation-temporal scale correlation and the slope of $$\text{log}F(L)/\text{log}L$$ (i.e. $$\alpha$$).<br/><br/>The DFA result for the whole map is like the picture below, $$\alpha$$ is between 0.5 and 1, indicating a correlation between fluctuation and time.  But the pixel results are seemingly random (this is expected), and all have $$\alpha &lt;&lt; 0.5$$ (this is quite unexpected), indicating anti-correlations.<br/><p style="text-align: center;"><img class="aligncenter" src="http://farm4.static.flickr.com/3230/2754422648_141ac93823.jpg" alt="DFA map result" width="400" height="166" /></p><br/><p style="text-align: center;"><img src="http://farm4.static.flickr.com/3092/2754544826_f9c60e64fb.jpg" alt="" width="400" height="355" /></p><br/><p style="text-align: left;">After examined the scripts and data in question I believe the design of the experiment has no fault that I could find.  I have also considered the possibility that <a href="http://www.physionet.org/physiotools/dfa/" target="_blank">nonstationarity and trend</a> may have effects on the result, but the NDVI data I used have already had seasonal trend eliminated, while nonstationarity is not likely to cause such dramatic change in $$\alpha$$.  The result, if not a technical failure, will suggest that the system's behaviour at 8km (single pixel) and regional scales are different.  At the fine-grained scale, the fluctuation reduces as temporal scale increases, i.e. a fluctuation is likely to cause smaller and smaller fluctuations in the distant future.  But at coarser scale the behaviour is inversed, a fluctuation may cause larger and larger fluctuations at long intervals.</p><br/><p style="text-align: left;">It is possible that the system's behaviour at coarser scales is the result of relatively simpler interactions at finer scales, creating a phenomenon known as <a href="http://en.wikipedia.org/wiki/Emergence" target="_blank">emergence</a>.  But the question is, if it is really emergence, what is the critical scale that such behaviour shift takes place.  Besides, what I have now is at best correlation, are there any intrinsic mechanism that determine such emergence?  In ecology, has there been similar emergence taking place in the shift from community to biome scale?</p><br/><p style="text-align: left;">The system I'm studying is a pastoral socio-ecosystem.  If there is really emergence like this, does it suggest that the system at the farm scale is resilient but as a whole is not [1. There are some resilience researchers noted the problem of emergence, such as</p><br/><p style="text-align: left;">Allen, C.R., Gunderson, L. &amp; Johnson, A.R., 2005. The Use of Discontinuities and Functional Groups to Assess Relative Resilience in Complex Systems. <span style="font-style: italic;">Ecosystems</span>, 8(8), 958-966. and</p><br/><p style="text-align: left;">Folke, C., 2006. Resilience: The emergence of a perspective for social-ecological systems analyses. <span style="font-style: italic;">Global Environmental Change</span>, 16(3), 253-267.]?  This is a really intriguing question.  I just hope it is not raised from a false observation.</p></div>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2008/08/01/find-underlying-fluctuation-using-dfa" title="Find underlying fluctuation using DFA">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2008/08/19/how-will-statistics-go-spatial" title="How will statistics go spatial">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2008-08-11</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>自由的遥感图像处理解决方案？</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.2978126230057959" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.714780394550082" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.06554364017537728" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>自由的遥感图像处理解决方案？ </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class='post'>
+因为工作的需要，最近一段时间的工作重点是搜集和处理遥感图像。具体要怎么处理还没有决定，只知道大概要做的东西包括几何校正，大气校正，geoencoding/registration，后期肯定会做 change detection。这些在 ERDAS Imagine 里面是相对简单的，基本都可以点点鼠标解决。但是目前学校的 IT staff 还没有给我的电脑装这套软件，为了立即开展工作我准备找一找自由/开源的替代方案。<br/><br/>在 [http://opensourcegis.org/](http://opensourcegis.org/) 上给出了一个比较全面的与 GIS/RS 有关的自由/开源项目的列表，虽然其中成气候的项目还很少，而且像 Imagemagick 和 Free Type 这样的通用项目都列上去了，不过这方面的开发工作确实比我想象的更多。在 [GDAL](http://www.gdal.org/) 出来后出现了很多 GIS 项目，但地学图像处理方面的软件相对还是很缺乏。<br/><br/>一番比较后我决定使用 [GRASS GIS](http://grass.itc.it/intro/general.php) 和 [nip2](http://www.vips.ecs.soton.ac.uk/index.php?title=Nip2) 来完成工作。GRASS GIS 是目前自由/开源 GIS 中最成熟的项目（应该不用加“之一”了吧）。以前我用它做过一个简单的模型输出可视化，但没注意到它还有处理遥感图像的功能。看了它的手册和一些搜索之后，结论是它可以用来做几何与大气校正、合成和分类，虽然分类的算法可能没有商业软件包那么多样，不过理论上说可以自己写个实现，已经有人做出了[神经网络分类方法的实现](http://www.ncgia.ucsb.edu/conf/SANTA_FE_CD-ROM/sf_papers/muttiah_ranjan/muttiah.html)。<br/><br/>nip2 是 [VIPS](http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS) 库的一个前端，号称是介于 Photoshop 与 Excel 之间的图像处理软件。其特点是可以用控件和脚本结合对图像方便地进行复杂的处理。虽然它的设计似乎并没有特别考虑地学应用的需要，但它有一个非常吸引人的特性，就是对大图像的处理速度非常快，而且可以处理大于内存容量的图像。我准备用它来处理观测角度与读数关系不大的图像，也可能用它来做分割和组合。<br/><br/>如果两周后我觉得这两个软件用得比较顺手，可能会一直用它们完成论文。商业软件包确实易用，能够节省一些学习和适应的时间，但我觉得用自由/开源的软件能让自己对 under the hood 的东西了解更多一些，而且现在掌握了 GRASS GIS 以后还可以很快上手 ERDAS Imagine，反之则不然。</div>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2007/11/30/iron-the-sea-to-combat-climate-change" title="Iron the sea to combat climate change">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2007/12/06/a-flavour-of-avhrr" title="A flavour of AVHRR">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2007-12-03</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

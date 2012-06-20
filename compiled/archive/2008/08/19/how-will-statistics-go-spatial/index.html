@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>How will statistics go spatial</title>
+    <meta name="author" content="H. Xu">
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Le styles -->
+    <link href="/assets/twitter/stylesheets/bootstrap.min.css?0.8892318988121561" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/stylesheets/style.css?0.19634830361268407" type="text/css" rel="stylesheet" media="all">
+<link href="/assets/twitter/widgets/google_prettify/stylesheets/twitter-bootstrap.css?0.8033794611763764" type="text/css" rel="stylesheet" media="all">
+
+ 
+
+    <!-- Le fav and touch icons -->
+  <!-- Update these with your own images
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  -->
+  </head>
+
+  <body>
+
+    <div class="navbar">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="/">互联网暂住客</a>
+          <ul class="nav">
+              
+                <li><a href="/tags">Tags</a></li>
+              
+                <li><a href="/categories">Categories</a></li>
+              
+                <li><a href="/pages">Pages</a></li>
+              
+                <li><a href="/about">About Me</a></li>
+              
+                <li><a href="/changelog">Errata and Updates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+  <h1>How will statistics go spatial </h1>
+</div>
+
+<div class="row">
+  <div class="span8">
+    <div class='post'>
+摘要：讨论空间统计的元素和面临的困难以及可能的发展方向。<br/><br/>When I consider the organisation of my thesis I want to boast that my study has used free software GIS -- <a href="http://grass.itc.it/" target="_blank">Grass GIS</a> as well as free statistics software package/language <a href="http://www.r-project.org/" target="_blank">R</a> to achieve spatial statistics capacity where even many commercial software packages are handicapped, as the two champions in the free software world can cooperate almost seamlessly, processing map and data back and forth and providing convicing statistics on a map.  However after a second thought I realised that "statistics on a map" is not the equivalent of "spatial statistics".<br/><br/>Although Geographic Information Systems were designed and built with statistics in mind, geographical data in its early days only were included as a context for other data such as census or measurement.  From an early GIS-generated map we can obtain information such as the total number of cars in UK and their distribution in various cities whose population is larger than <em>x</em>.  This is of course useful information but is insufficient now that people have more demands on geographical data itself, partly thanks to Google Maps/Earth and all those mash-up applications.  Therefore the statistics ability of GIS needs to be enhanced, allowing it to be able to process geographical data both as an explanatory variable and a dependent variable, instead of just as a context.<br/><br/>By geographical data I mean the following attributes:<br/><table style="height: 154px;" border="0" width="298" rules="none"><br/><tbody><br/><tr><br/><td><br/><ul><br/>	<li>Vicinity</li><br/></ul><br/></td><br/><td><br/><ul><br/>	<li>Direction</li><br/></ul><br/></td><br/></tr><br/><tr><br/><td><br/><ul><br/>	<li>Gradient</li><br/></ul><br/></td><br/><td><br/><ul><br/>	<li>Visibility</li><br/></ul><br/></td><br/></tr><br/><tr><br/><td><br/><ul><br/>	<li>Fragmentation</li><br/></ul><br/></td><br/><td><br/><ul><br/>	<li>Shape</li><br/></ul><br/></td><br/></tr><br/><tr><br/><td><br/><ul><br/>	<li>Spatial correlation</li><br/></ul><br/></td><br/><td><br/><ul><br/>	<li>Accessibility</li><br/></ul><br/></td><br/></tr><br/><tr><br/><td><br/><ul><br/>	<li>Anomalies</li><br/></ul><br/></td><br/><td><br/><ul><br/>	<li>Agents and behaviour</li><br/></ul><br/></td><br/></tr><br/></tbody></table><br/>This is, of course, just a non-exhaustive list.  At present most GIS can only process a few of these attributes at a not very satistying level.  To enhance the ability of GIS, there are some hurdles that have to be overcome first.  The biggest one may be the problem of describing.  The nature of GIS and its supporting technology determine that GIS use mathematic-based, reductionist approaches to store and express data in a discrete way, however geography is continuous, with some concepts that are difficult to quantify.  How do we state "the habitat is located around the intersection of a footpath and a main highway bridge near Baxton, with a thinner canopy in the northern part providing more favourable conditions for lower storey plants" to a computer?  A promising direction of development seems lies in semantics and cognition science.<br/><br/>Another problem is the model used.  In geography everything is linked, then how does one represent such link with mathematical models?  Besides, statistics in its traditional sense is the aggregation of measurements, which can bring unexpected results in geographical studies.  This is especially a prominent problem if social processes are involved.  At least, the simple aggregation based on descriptive statistics will have a more limited role.  New techniques such as fractal mathematics and trend analysis may have more contribution to the solution to the problem in the future.<br/><br/>The more developed spatial statistics perhaps also will put a demand on more sophisticated spatial data, although the improvement of methodology can alleviate such demand.  When statisticians and geographers look at more subtle aspects of natural and social interactions going on on the ground, they will need more data such as the heteogeneity within a "patch" and individual behaviour.  In return GIS fed on these data may provide some insights in design of public spaces, priority of conservation, and so on.<br/><br/>I decide to wait and try to contribute to the (r)evolution of new spatial statistics.  Before that takes place my thesis will be "using GIS technology and simple statistics with a spatial concern".<br/><br/>Many of the ideas in this entry comes from or are inspired by <a href="http://www.csiss.org/aboutus/presentations/files/goodchild_seattle_oct02.pdf" target="_blank">this slide</a> by Michael F.Goodchild in University of California, Santa Barbara.</div>
+
+    <hr>
+    <div class="pagination">
+      <ul>
+        <ul>
+            <li class="prev"><a href="/archive/2008/08/11/emergence-or-merely-a-mistake" title="Emergence, or merely a mistake?">&larr; Previous</a></li>
+
+            <li><a href="/archive">Archive</a></li>
+
+            <li class="next"><a href="/archive/2008/08/23/024db01639a2af0878516be3852a2fe7" title="生态/环境研究的新挑战">Next &rarr;</a></li>
+        </ul>
+      </ul>
+    </div>
+    <hr>
+    
+  </div>
+  
+  <div class="span4">
+    <h4>Published</h4>
+    <div class="date"><span>2008-08-19</span></div>
+    <br>
+    <h4>Categories</h4>
+    <ul class="tag_box">
+    </ul>
+    <br>
+    <h4>Tags</h4>
+    <ul class="tag_box">
+    </ul>
+  </div>
+</div>
+
+      </div>
+
+      <footer>
+        <p>&copy; H. Xu 2012 
+          with help from <a href="http://ruhoh.com" target="_blank" title="The Definitive Technical Blogging Framework">ruhoh</a>
+          and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+        </p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Google Prettify -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/prettify/188.0.0/prettify.js"></script>
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i=0; i < pres.length; ++i) {
+    pres[i].className = "prettyprint linenums";
+  }
+  prettyPrint();
+</script>
+<!-- end Google Prettify -->
+    <script>
+  var _gaq=[['_setAccount','UA-123-12'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+  </body>
+</html>

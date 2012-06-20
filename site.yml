@@ -12,6 +12,6 @@ navigation :
   - tags.html
   - categories.html
   - pages.html
-  - about.md
+  - about/index.markdown
   - changelog/index.md
   

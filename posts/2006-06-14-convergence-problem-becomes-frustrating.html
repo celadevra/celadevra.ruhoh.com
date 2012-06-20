@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Convergence problem becomes frustrating"
+date: 2006-06-14
+comments: false
+---
+
+<div class='post'>
+I guess I am approaching the real cause of the problem.&nbsp; Some cells in simulation have oscillating values.&nbsp; That is to say the water head in these cells change rapidly during simulation. &nbsp;<br/><br/>I tried to reduce oscillation by adjusting DAMP value in the PCG2 solver, but the problem still exists even when the DAMP is as low as 0.00001.&nbsp; At the same time it also leads to imbalance of water budget. &nbsp;<br/><br/>If I exclude the ``bad&#39;&#39; cells with large head change by marking them as inactive cells, other cells will also oscillate to a more staggering extent.<br/><br/>During simulations I noticed that most oscillating cells are in layer 1, 2, 10 and 11, where soils with different transmissivity meet.&nbsp; Besides, cells on borders tend to oscillate. &nbsp;<br/><br/>&nbsp;I need to find some means to reduce the head change in cells.&nbsp; Or change solvers to make the model converge.&nbsp; If I cannot make this I will have to fall back to more simplified models.</div>

@@ -1,0 +1,9 @@
+---
+layout: post
+title: "A minimum working MODFLOW simulation"
+date: 2006-04-29
+comments: false
+---
+
+<div class='post'>
+Today one of my most important tasks is to establish a MODFLOW simulation that can work.&nbsp; Considering known figures, the simulation has to be very simple.&nbsp; I may only use BASIC module.<br/><br/>Now I am working with DISCRETION file, which contains information on the size and shape of the cell, as well as layer properties.&nbsp; The main problem so far is the DEM.&nbsp; The original file is too dense (with 0.1m resolution), thus I first extracted a part of data, with 100m resolution.&nbsp; The result is a data file much lighter.&nbsp; Though the rationale of such resolution choice still remain debetable.<br/><br/>From DEM I can get surface elevation needed by the model.&nbsp; However, the elevations of layers underneath are also needed.&nbsp; Thus I need to know the thickness of accotelm and catotelm.&nbsp; Different from my previous guess, the catotelm depth in different locations may vary quite significantly.&nbsp; For this period, I will set the catotelm depth to 2m according to Tallis (1973).<br/><br/>Mineral soil depth also varies.&nbsp; I used Reeve et al.&#39;s (2000) simplication to set it to 0.5m.<br/><br/>I found a useful tool for parameterising the model: PMWIN 5.3.&nbsp; It provides a visual means to parameterise MODFLOW.&nbsp; As a simple model I just inputed the elevation of each layer.&nbsp; The hydroconductivities are left to default value.&nbsp; Gamble et al. (2003) gives transmissivity of 10 ft^2/d or 0.2 ft^2/d, using different methods.&nbsp; I choose 10 ft^2/d in this case.&nbsp; Peat porosity also seems to vary.&nbsp; I choose 0.85, which may need verification during fieldwork.</div>

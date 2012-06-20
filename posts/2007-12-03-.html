@@ -1,9 +1,0 @@
----
-layout: post
-title: "自由的遥感图像处理解决方案？"
-date: 2007-12-03
-comments: false
----
-
-<div class='post'>
-因为工作的需要，最近一段时间的工作重点是搜集和处理遥感图像。具体要怎么处理还没有决定，只知道大概要做的东西包括几何校正，大气校正，geoencoding/registration，后期肯定会做 change detection。这些在 ERDAS Imagine 里面是相对简单的，基本都可以点点鼠标解决。但是目前学校的 IT staff 还没有给我的电脑装这套软件，为了立即开展工作我准备找一找自由/开源的替代方案。<br/><br/>在 [http://opensourcegis.org/](http://opensourcegis.org/) 上给出了一个比较全面的与 GIS/RS 有关的自由/开源项目的列表，虽然其中成气候的项目还很少，而且像 Imagemagick 和 Free Type 这样的通用项目都列上去了，不过这方面的开发工作确实比我想象的更多。在 [GDAL](http://www.gdal.org/) 出来后出现了很多 GIS 项目，但地学图像处理方面的软件相对还是很缺乏。<br/><br/>一番比较后我决定使用 [GRASS GIS](http://grass.itc.it/intro/general.php) 和 [nip2](http://www.vips.ecs.soton.ac.uk/index.php?title=Nip2) 来完成工作。GRASS GIS 是目前自由/开源 GIS 中最成熟的项目（应该不用加“之一”了吧）。以前我用它做过一个简单的模型输出可视化，但没注意到它还有处理遥感图像的功能。看了它的手册和一些搜索之后，结论是它可以用来做几何与大气校正、合成和分类，虽然分类的算法可能没有商业软件包那么多样，不过理论上说可以自己写个实现，已经有人做出了[神经网络分类方法的实现](http://www.ncgia.ucsb.edu/conf/SANTA_FE_CD-ROM/sf_papers/muttiah_ranjan/muttiah.html)。<br/><br/>nip2 是 [VIPS](http://www.vips.ecs.soton.ac.uk/index.php?title=VIPS) 库的一个前端，号称是介于 Photoshop 与 Excel 之间的图像处理软件。其特点是可以用控件和脚本结合对图像方便地进行复杂的处理。虽然它的设计似乎并没有特别考虑地学应用的需要，但它有一个非常吸引人的特性，就是对大图像的处理速度非常快，而且可以处理大于内存容量的图像。我准备用它来处理观测角度与读数关系不大的图像，也可能用它来做分割和组合。<br/><br/>如果两周后我觉得这两个软件用得比较顺手，可能会一直用它们完成论文。商业软件包确实易用，能够节省一些学习和适应的时间，但我觉得用自由/开源的软件能让自己对 under the hood 的东西了解更多一些，而且现在掌握了 GRASS GIS 以后还可以很快上手 ERDAS Imagine，反之则不然。</div>

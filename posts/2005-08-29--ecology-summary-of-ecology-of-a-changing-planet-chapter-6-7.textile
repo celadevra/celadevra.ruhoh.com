@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;[Ecology] Summary of ‘Ecology of a Changing Planet', Chapter 6-7&quot;|
+|date: 2005-08-29|
+|comments: false|
+
+
+<div class='post'>
+[Ecology] Summary of 'Ecology of a Changing Planet', Chapter 6<br/><br/>Exploitation efficiency of decomposers approaches 100%.<br/><br/>The largest energy flow through an ecosystem is through the decompositional pathway.<br/><br/>Allocation of energy changes with maturity. Immature stages invest in growth, mature stages increase investment in reproduction.<br/><br/>[Ecology] Summary of 'Ecology of a Changing Planet', Chapter 7<br/><br/>There are two types of reproduction: asexual and sexual. Asexual reproduction can produce the exact clones of the parent. Compared to sexual reproduction, asexual reproduction doesn't need extra energy to demonstrate attraction, or fight for the right of breeding. However, 97% of organisms use sexual reproduction, because it brings more variations in genotypes and more possibility of producing 'superfit' offspring. In relatively constant circumstances, sexual reproduction is preferred; while in frequently changing circumstances, asexual reproduction often outcompete.<br/><br/>Males can offset reproductive costs by increasing the survirorship of the young.<br/><br/>The reason why there are only 2 sexes is that if there are more than one sex that cannot give birth to the offspring, more energy will be wasted.<br/><br/>Animals will have the optimal number of young to achieve an ecological fitness of 1. In energy allocation and surviving strategies, there are two types: opportunists (r-strategy) tend to be short-lived, have small bodies, and have many young, e.g. dandelions; competitors tend to be long-lived, have large bodies, and have few young, e.g. large mammals.
+</div>
+
+

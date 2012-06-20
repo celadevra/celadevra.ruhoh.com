@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;A somewhat better simulation result&quot;|
+|date: 2006-06-11|
+|comments: false|
+
+
+<div class='post'>
+After I redefined the boundary conditions, got rid of RIVER package, adjusted STR1 package and gave river cells constant head, I got such simulation result:<br/><br/><typo:code>     CUMULATIVE VOLUMES      L*3       RATES FOR THIS TIME STEP      L*3/T<br/>     ------------------                 ------------------------</typo:code><typo:code>            </typo:code><br/><br/><typo:code>     IN:                                      IN:<br/>           ---                                      ---<br/>       CONSTANT HEAD =    63661356.0000         CONSTANT HEAD =     2092976.1300<br/>              DRAINS =           0.0000                DRAINS =           0.0000<br/>       RIVER LEAKAGE =           0.0000         RIVER LEAKAGE =           0.0000<br/>                  ET =           0.0000                    ET =           0.0000<br/>            RECHARGE =      871753.8130<br/>              RECHARGE =       28660.4004<br/>            TOTAL IN =    64533108.0000              TOTAL IN =     2121636.5000<br/>          OUT:                                     OUT:<br/>          ----                                     ----<br/>       CONSTANT HEAD =    55723300.0000         CONSTANT HEAD =     1831999.0000<br/>              DRAINS =     8146114.5000                DRAINS =      267817.4690<br/>       RIVER LEAKAGE =           0.0000         RIVER LEAKAGE =           0.0000<br/>                  ET =      747962.5630                    ET =       24590.5508<br/>            RECHARGE =           0.0000              RECHARGE =           0.0000           <br/>           </typo:code><typo:code>TOTAL OUT =    64617380.0000             TOTAL OUT =     2124407.0000<br/></typo:code><typo:code>            IN - OUT =      -84272.0000              IN - OUT =       -2770.5000  <br/> PERCENT DISCREPANCY =          -0.13     PERCENT DISCREPANCY =          -0.13</typo:code><br/><br/>The discrepancy of the result is much smaller than previous one (82%).  Now I have a model that makes sense.<br/><br/>The next problem would be adjusting parameters using inverse models and make the result converge so multi period simulation is possible.
+</div>
+
+

@@ -1,0 +1,14 @@
+
+|layout: post|
+|title: &quot;C 语言练习一则&quot;|
+|date: 2008-02-05|
+|comments: false|
+
+
+<div class='post'>
+K &amp; R C Exercise 1-9：将输入拷贝到输出，并将多于一个连续空格转换为一个空格。<br/><br/><span style="font-family: monospace;"><br/><span style="color: #ffff00;">29 </span><span style="color: #cd5c5c;">#include</span><span style="color: #ffa0a0;">&lt;stdio.h&gt;</span><br/><span style="color: #ffff00;">30 </span><br/><span style="color: #ffff00;">31 </span><span style="color: #87ceeb;">/_</span><span class="Comment"> Read input and replace one or more blanks by a single blank </span><span class="Comment">_/</span><br/><span style="color: #ffff00;">32 </span>main()<br/><span style="color: #ffff00;">33 </span>{<br/><span style="color: #ffff00;">34 </span> <span style="color: #bdb76b;"><strong>int</strong></span><span> c, bl;</span><br/><span style="color: #ffff00;">35 </span><br/><span style="color: #ffff00;">36 </span> bl = <span style="color: #ffa0a0;">0</span><span>; </span><span style="color: #87ceeb;">/_</span><span class="Comment"> bl used as a flag to determine whether a blank is needed before putchar( c )</span><span class="Comment">_/</span><br/><span style="color: #ffff00;">37 </span> <span style="color: #f0e68c;"><strong>while</strong></span><span> ((c = getchar()) != </span><span style="color: #ffa0a0;">EOF</span><span>)</span><br/><span style="color: #ffff00;">38 </span> <span style="color: #f0e68c;"><strong>if</strong></span><span> ((c != </span><span style="color: #ffa0a0;">' '</span><span>) &amp;&amp; (bl == </span><span class="Constant">0</span><span>))</span><br/><span style="color: #ffff00;">39 </span> putchar( c );<br/><span style="color: #ffff00;">40 </span> <span style="color: #f0e68c;"><strong>else</strong></span><span> </span><span class="Statement">if</span><span> ((c != </span><span style="color: #ffa0a0;">' '</span><span>) &amp;&amp; (bl != </span><span class="Constant">0</span><span>))</span><br/><span style="color: #ffff00;">41 </span> {<br/><span style="color: #ffff00;">42 </span> putchar(<span style="color: #ffa0a0;">' '</span><span>);</span><br/><span style="color: #ffff00;">43 </span> putchar( c );<br/><span style="color: #ffff00;">44 </span> bl = <span style="color: #ffa0a0;">0</span><span>; </span><span style="color: #87ceeb;">/_</span><span class="Comment"> bl != 0 means blank(s) in front and needs to be dealt with </span><span class="Comment">_/</span><br/><span style="color: #ffff00;">45 </span> }<br/><span style="color: #ffff00;">46 </span> <span style="color: #f0e68c;"><strong>else</strong></span><br/><span style="color: #ffff00;">47 </span> {<br/><span style="color: #ffff00;">48 </span> ++bl;<br/><span style="color: #ffff00;">49 </span> }<br/><span style="color: #ffff00;">50 </span>}<br/></span><br/>
+<pre>我知道标准答案肯定不是这样的，因为还没有学 else 和 &amp;&amp; 呢……</pre>
+<br/><a href="http://users.powernet.co.uk/eton/kandr2/krx109.html" target="_blank">这里</a>给出了一些解法。
+</div>
+
+

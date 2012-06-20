@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;“Chaotic'' processes in weathering&quot;|
+|date: 2006-04-25|
+|comments: false|
+
+
+<div class='post'>
+Today I attended a talk given by Prof. Alice Turkington from the University of Kentucky. The main idea of her speech is that in research on weathering, we should be aware of the delicate microclimate, biology and substrate characters in different locations of the surface and the implications of these differences in the weathering process. It is found that weathering demonstrates some chaotic behaviours, i.e. subtle difference of initial condition can lead to completely contrasting results after a period of weathering process.<br/><br/>Thus in weathering research one should address such chaotic processes, especially when the weathering is to be modelled and simulated using computer. She also mentioned some drawbacks of today's research method. A major problem is that laboratory conditions often bring variation of weathering process. After scaling down, the weathering process is different from real situation. Last but not least, weathering experiments often take years.<br/><br/>But I think, as the scope and scale of research is enlarged, the chaotic characteristic will gradually give way to more deterministic behaviours. While you cannot predict which side of a stone will be scratched more severely, you can to a large extent tell which side of a valley undergoes more significant wind effects. However, Prof. Turkington's speech reminds me that stochastic processes also play a part in erosion processes. To measure the rate of erosion may require understanding of the history of the landscape, vegetation and other changes. This, definitely, will make it more difficult to tell whether climate change significantly influenced erosion in Chilean coasts.
+</div>
+
+

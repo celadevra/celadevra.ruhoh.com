@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;[Academic] Using 'scientific' language&quot;|
+|date: 2005-06-20|
+|comments: false|
+
+
+<div class='post'>
+My thesis would need radical modification because the language I used in writing is very unformal.<br/><br/>In some American and European theses we can often see people use word &quot;we&quot; and &quot;our&quot;, but in a Chinese thesis these two words are almost forbidden. You should not use &quot;I think&quot; &quot;it is supposed&quot; or &quot;we believe&quot; either.<br/><br/>When organizing your article you should remember that every paragraph, even every sentence should contain some opinions or facts, and no repeat is allowed. Your thesis can be short, as long as it gives valuable information. If it is too long and dull, then it is trash.
+</div>
+
+

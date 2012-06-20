@@ -1,0 +1,31 @@
+
+|layout: post|
+|title: &quot;links for 2009-02-09&quot;|
+|date: 2009-02-09|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.switchersblog.com/2008/10/1password-29-br.html">Switchers' Blog: Keeping Your Passwords in Sync with 1Password 2.9</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/howto">howto</a> <a href="http://delicious.com/snakehsu/backup">backup</a> <a href="http://delicious.com/snakehsu/sync">sync</a> <a href="http://delicious.com/snakehsu/security">security</a> <a href="http://delicious.com/snakehsu/osx">osx</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.getdropbox.com/">Dropbox - Home - Secure backup, sync and sharing made easy.</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/Linux">Linux</a> <a href="http://delicious.com/snakehsu/storage">storage</a> <a href="http://delicious.com/snakehsu/web">web</a> <a href="http://delicious.com/snakehsu/backup">backup</a> <a href="http://delicious.com/snakehsu/sync">sync</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

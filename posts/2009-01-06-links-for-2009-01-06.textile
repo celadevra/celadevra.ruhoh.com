@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;links for 2009-01-06&quot;|
+|date: 2009-01-06|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.newscientist.com/article/mg20126881.700-why-bad-weather-is-good-for-fisherman--.html?page=1">Why bad weather is good for fisherman - environment - 06 January 2009 - New Scientist</a>
+</div>
+<br/>
+<div class="delicious-extended">
+Example of cross-scale interaction. Storms cause greater motion of ocean and more available nutrient. The result is increased fish biomass.
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/climate">climate</a> <a href="http://delicious.com/snakehsu/cross-scale">cross-scale</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

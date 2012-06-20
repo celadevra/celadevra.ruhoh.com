@@ -1,0 +1,55 @@
+
+|layout: post|
+|title: &quot;links for 2008-12-02&quot;|
+|date: 2008-12-02|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.sciencedaily.com/releases/2008/12/081202081457.htm">Ecological Impact Of African Cities</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/ecology">ecology</a> <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/urbanization">urbanization</a> <a href="http://delicious.com/snakehsu/development">development</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://feeds.feedburner.com/~r/scienceblogs/ScienceblogsSelect/~3/472592452/our_planet_is_a_mess_because_o.php">'Our planet is a mess because of you people!' [The Intersection]</a>
+</div>
+<br/>
+<div class="delicious-extended">
+Poor scientist...
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/activism">activism</a> <a href="http://delicious.com/snakehsu/greenpeace">greenpeace</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://feeds.newscientist.com/c/749/f/10897/s/27a3562/l/0L0Snewscientist0N0Carticle0Cdn16130A0Eantarctic0Eislands0Esurpass0Egalapagos0Efor0Ebiodiversity0Bhtml0DDCMP0FOTC0Erss0Gnsref0Fonline0Enews/story01.htm">Antarctic islands surpass Galapagos for biodiversity</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/biodiversity">biodiversity</a> <a href="http://delicious.com/snakehsu/ecology">ecology</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.newscientist.com/article/dn16171-brazilian-rainforest-destruction-on-the-up-once-more.html?DCMP=OTC-rss">Brazilian rainforest destruction on the up once more</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/ecology">ecology</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

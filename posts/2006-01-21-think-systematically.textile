@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Think systematically&quot;|
+|date: 2006-01-21|
+|comments: false|
+
+
+<div class='post'>
+This morning I received Ritsuko's letter asking me about Data Handling Assignment. Ritsuko is my classmate in Nottingham. She has already got a PhD degree in Japan.<br/><br/>I was caught by her questions. I must say it is my luck that I was not asked in a conversation but through e-mail. Or I will not know how to organise my words. Her questions are very fundamental but require a lot of theory knowledge about statistics. Besides, I used the methods required in the description of the assignment but thought too little about why I use them. Trying to answer her questions made me think more about the underlying assumptions and implications of statistics.<br/><br/>My way of thinking, compared to hers, seems to lack system features. When have a problem, she would first find the model, then the method and limitations. My approach would be trying a best possible solution and see what happens. My approach should be faster and more adaptive in most cases. However, it is why my solutions are rarely the perfect one. I think it would be better if I can use a more systematic thinking before I begin to tackle the problem.
+</div>
+
+

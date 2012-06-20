@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Plan changed a lot&quot;|
+|date: 2006-07-03|
+|comments: false|
+
+
+<div class='post'>
+The field trip shows that the distribution of Sphagnum may be related to multiple varibles, or factors, including vegetation, waterhead drawdown and possibly elevation.  If there is a river nearby, it is very possible for a point with suitable vegetation to have Sphagnum presence.  But a general rule of prediction cannot be deducted from these information so far.<br/><br/>However, I think now I have enough presence data to get a better classification of images, which can serve as initial condition and comparison reference.  On the other hand, the MODFLOW model can be improved using thinner peat layer.  Then the vegetation, hydrology and elevation data can be input into GRASP to get predictions.
+</div>
+
+

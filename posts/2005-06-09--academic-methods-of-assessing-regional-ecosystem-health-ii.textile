@@ -1,0 +1,20 @@
+
+|layout: post|
+|title: &quot;[Academic] Methods of assessing regional ecosystem health (II)&quot;|
+|date: 2005-06-09|
+|comments: false|
+
+
+<div class='post'>
+A proposed framework for developing indicators of ecosystem health<br/><br/>This article from SpringerLink give a few principles you must consider when you are assessing regional ecosystem health.<br/>
+<ol>   <li>
+Because you are considering health, you should always consider factors concerning human health and well being in the ecosystem;
+</li>   <li>
+Biogeochemical and socialeconomic factors are influencing each other;
+</li>   <li>
+Different management goals determined different indicators used;
+</li> </ol>
+A holistic approach to ecosystem health assessment using fish population characteristics<br/><br/>This article provided an idea that using some key species as the indicator of region ecosystem health. However, I think it is difficult to apply this method to Fengtai and Fangshan district in my research. I know too little about species and biodiversity in this area and lack knowledge of historical data in this area.<br/>Nor can I identify a key species.
+</div>
+
+

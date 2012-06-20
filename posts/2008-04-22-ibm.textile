@@ -1,0 +1,41 @@
+
+|layout: post|
+|title: &quot;IBM 和其他公司的电子废物回收服务&quot;|
+|date: 2008-04-22|
+|comments: false|
+
+
+<div class='post'>
+今天在某论坛上看到有人惊异地发现 IBM 做回收利用旧电子产品并出售翻新后的硬盘、光驱等部件，并质疑这是否会对 IBM 的商业信誉产生影响。事实上，作为世界上数一数二的电子产品制造商，IBM 如果没有一个这样的业务，倒是才让人怀疑他们的 corporate social responsibility。IBM 这套系统的基本工作流程在<a href="http://www.ibm.com/podcasts/howitworks/20080421/resources/HIW_04212008.pdf" target="_blank">这个 PDF 文件</a>中有所描述。IBM 宣称在57个国家都开展了这项业务，不过我在 IBM 中国和英国的主页上粗略搜索了一下，都没有找到相关的信息。<br/><br/>欧洲已经通过法律要求对家电、电子和通讯产品以及照明器具等实施回收，具体回收类别<a href="http://www.opsi.gov.uk/SI/si2006/20063289.htm#sch1" target="_blank">见链接</a>。这项被称之为 <span style="font-size: x-small;">Waste Electrical and Electronic Equipment (WEEE) Directive 的</span>欧盟法令在英国于去年7月1日起以 Regulation 的名义开始正式生效。法令条文在<a href="http://www.opsi.gov.uk/SI/si2006/20063289.htm" target="_blank">这里</a>。BBC <a href="http://news.bbc.co.uk/1/hi/sci/tech/6254816.stm" target="_blank">对其操作机制进行了解释</a>，并回答了一些<a href="http://news.bbc.co.uk/1/hi/sci/tech/6253250.stm" target="_blank">常见问题</a>。这是一个强制性法令，电子产品生产商必须加入到回收体系中方可进入市场。在英国和欧洲大陆许多国家，具体的回收由 <a href="http://www.sims-group.com/srs/home/default.asp" target="_blank">Sims Group Limited</a> 实施。这家公司据称是世界上最大的材料回收企业之一，其回收电子产品的手段似乎与 IBM 的类似。<br/><br/>作为消费者，我直到今天才了解到这个回收法令的存在，似乎是不太应该的事。法令规定电子产品的经销商有义务让消费者了解回收电子产品的渠道，但我从去年7月以来一直没有看到有这样的宣传（不排除是我孤陋寡闻太久了-&#95;-）。另外法规虽然对这类废物的出口资格进行了详细的规定，却没有提及此类废物如果以其他货物的名义转移到欧盟境外应如何处置（也可能有其他法律对此作出规定，没有详查）。可能像其他废物回收法令一样，这个法令在英国的充分执行还需要一些时间。<br/><br/>不知道在国内有没有公司在做这方面的业务，经销商和消费者的态度又是如何，还请国内读者们提供信息。
+</div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+p
+</div>
+<div class='content'>
+去年有一期国家地理有个专题说这个来着 还有很多卖到非洲或者阿富汗一类的地方手工分拣 土法冶炼回收贵金属 然后再卖回到中国<br>所以可能国内也有类似的实践 肯定不会随便丢弃填埋 但是估计就和回收塑料瓶一样 以危害个人健康为代价
+</div>
+</div>
+<div class='comment'>
+<div class='author'>
+Celad Evra
+</div>
+<div class='content'>
+多谢 NP :) 在水木上看到有消息说国内正在制定法规。
+</div>
+</div>
+<div class='comment'>
+<div class='author'>
+NP
+</div>
+<div class='content'>
+国内二手电脑零件回收生意有倒是有，一大类是洋垃圾直接进口经过手工分拣粗略翻新进入二手市场，另一大类是各地电脑市场回收国内用户手里的旧机型，然后翻新维修后出售。但都不是什么正规行业，也缺少规范。<br><br>大公司据我所知，还没有正式的二手回收业务。如你所设，这确实提醒国内公司在环保责任上的落伍。
+</div>
+</div>
+</div>
+
+

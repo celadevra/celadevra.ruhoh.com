@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Hacking MODFLOW and making plans for preliminary survey&quot;|
+|date: 2006-05-25|
+|comments: false|
+
+
+<div class='post'>
+I made another topology dataset for spatial discretion of MODFLOW.  This set is following Reeve et al. (2000) though I cannot tell why he used 11 layers to present the acrotelm, catotelm and mineral soil, the book they cited cannot be located anywhere on the web.  This model in fact assumes that vertical flow are important in blanket bog hydrology.  But there is another school of thought who claims that catotelm is relatively impermeable thus separating acrotelm from underlying mineral soil and the hydrology is completely determined by precipitation.<br/><br/>I found some books on aerial photograph interpretation, such as Jones (1968), Warner et al. (1996), and Lueder (1959).  Some of their references seems to be really interesting.  But, they are really way too old.  I wonder whether I can find those documents cited in them.<br/><br/>A problem rises when I want to do field observation to verify the reliability of Sphagnum spectral signature identified from aerial photographs.  How do I sample the verification points so I can tell how many patches are corresponding to the image?  The sampling will be a random sampling for each 1kmx1km grid, I will have a list of all pixels with that signature and choose points from the list randomly.  But for allocation of points between grid cells, I will use probability-proportional-to-size (pps) approach.  Because each cell has different proportion of possible patches, if I select the same number of points in each of the cell, cells with less areas of patches will in fact have weights more than they deserve. 
+</div>
+
+

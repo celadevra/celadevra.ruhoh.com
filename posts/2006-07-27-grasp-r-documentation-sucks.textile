@@ -1,0 +1,18 @@
+
+|layout: post|
+|title: &quot;GRASP-R documentation sucks...&quot;|
+|date: 2006-07-27|
+|comments: false|
+
+
+<div class='post'>
+I tried to use GRASPeR to predict presence today. The problem encountered is that when I use &quot;Model&quot; operation from the GUI, R (mgcv library) gives error message saying that the number of &quot;knots&quot; exceeds the maximum allowed value. It hints that I can get round this either by increasing maximum knots number using<br/>
+<pre>gam.control</pre>
+<br/>, or by changing the smoother to other types instead of the default thin plate, using<br/>
+<pre>s</pre>
+<br/>function in<br/>
+<pre>gam</pre>
+<br/>command. However, I found that with GRASPeR I cannot change these values. It seems that GRASPeR defined these values as default but I cannot find where to modify them.The documentation of GRASPeR gives only usage of GUI and functions provided by it. No troubleshooting section, no file format description, no description of dependency. I am really mad about it.I downloaded the source code of GRASPeR, see if I can get round my problem by modifying the source and recompile. If not, I will have to use some more primitive methods, such as typying command one by one by myself
+</div>
+
+

@@ -1,0 +1,17 @@
+
+|layout: post|
+|title: &quot;自由地图绘制软件 GMT&quot;|
+|date: 2008-11-21|
+|comments: false|
+
+
+<div class='post'>
+<div class="zemanta-img zemanta-action-click">
+<br/><br/>[caption id=&quot;&quot; align=&quot;alignright&quot; width=&quot;202&quot; caption=&quot;Map of Alexander's empire. Created with GMT. Image via Wikipedia&quot;]<a href="http://commons.wikipedia.org/wiki/Image:MacedonEmpire.jpg#file"><img class="" title="Map of Alexander's empire." src="http://upload.wikimedia.org/wikipedia/commons/thumb/4/40/MacedonEmpire.jpg/202px-MacedonEmpire.jpg" alt="Map of Alexander's empire." width="202" height="97"></a>[/caption]<br/><br/>
+</div>
+<br/>导师把论文里的地图打回来了，还威胁说下次再画那么难看的图就让它直接进字纸篓。<a href="http://grass.itc.it/" target="_blank">GRASS</a> 的地图表现似乎确实不能让人满意，尤其是在缺乏底图数据的情况下，把遥感图像合成到地图上比较困难，处理使用不同投影和坐标系的数据更是困难。<a href="http://www.qgis.org/" target="_blank">QGis</a> 这方面稍有改善，但软件本身还不稳定。好在 GRASS 支持将数据输出成 ASCII GRID 格式，使得利用其它绘图工具生成地图成为可能。<br/><br/> <br/><br/><a href="http://gmt.soest.hawaii.edu/" target="_blank">Generic Mapping Tools</a>（GMT）就是这样一个工具（包）。GMT 按照 GPL 发布，对 Windows，Mac OS X 及 &#42;nix 等主流平台都提供了二进制包。整套工具由60多个命令行程序组成，可以组合这些程序实现比较复杂的绘图指令。最终的输出格式是 PostScript 或 eps 格式。<br/><br/>GMT 的一大特点是附带了 <a href="http://www.ngdc.noaa.gov/mgg/shorelines/gshhs.html" target="_blank">GSHHS</a> 海岸线和国境线数据库，以此为基础，地图上的特征点可以简单地用经纬度或地图上的(x,y)位置表示，从文本文件中读入。GRASS 等软件导出的 ASCII 文件可以被 GMT 直接读取，或者用 awk 进行简单的处理后读取，这样部分地消除了在各种坐标系间转换地理数据的麻烦。GMT 本身对各种常见投影方法的支持很好，还可以通过命令行选项灵活地设定地图布局，足以应付一般的制图需要。GMT 还可以用来描绘风场图，2D/3D 等高线图，以及其它的数据图（当然这个也许还是用 R 和电子表格一类的软件更方便）。<br/><br/>从我对 GMT 粗浅的接触，我觉得 GMT 对于美国以外的地区提供的数据还不够丰富，没有省/州一级的境界数据，另外似乎对线段和多边形等矢量特征的导入支持不够好。但是对于 GRASS 用户来说，GMT 确实提供了一个在自带脚本 ps.map 之外的更强大和方便的选择。与基于图形界面的 MapInfo Professional 等软件比，命令行界面的 GMT 也有它的优势。<br/><br/><br/>
+<div class="zemanta-pixie" style="margin-top:10px;height:15px">
+<a class="zemanta-pixie-a" href="http://reblog.zemanta.com/zemified/cd7d27c6-8e76-4a22-935f-1ceae3796451/" title="Zemified by Zemanta"><img class="zemanta-pixie-img" src="http://img.zemanta.com/reblog_e.png?x-id=cd7d27c6-8e76-4a22-935f-1ceae3796451" alt="Reblog this post [with Zemanta]" style="border:none;float:right"></a>
+</div></div>
+
+

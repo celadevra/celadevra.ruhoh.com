@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Modelling work draws to the end&quot;|
+|date: 2006-08-05|
+|comments: false|
+
+
+<div class='post'>
+Today I managed to make both GRASPeR and CAPS produce sensible results (using the data I gave them). It seems that the high ground near the peak of bleaklow cannot produce much <i>Sphagnum</i> in the future. However, GRASPeR gives a more pessimistic prediction using data completely same as today's. I guess the reason is that I have too many &quot;pseudo absence&quot; data in my dataset, i.e. all sites where I did not visit or did not see <i>Sphagnum</i> were labelled &quot;absence&quot;. I may need to randomly reduce the number of &quot;absence&quot; to a reasonable level. Besides, I would like to change the prediction dataset for the GRASPeR, see what if Peak District have more precipitation in the future? It would be interesting.<br/><br/>On the other hand, CAPS has even poorer documentation than GRASPeR. I need to ask the author why the replication number is limited and why the coverage drops drastically after certain years.
+</div>
+
+

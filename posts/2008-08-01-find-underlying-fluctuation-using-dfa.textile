@@ -1,0 +1,64 @@
+
+|layout: post|
+|title: &quot;Find underlying fluctuation using DFA&quot;|
+|date: 2008-08-01|
+|comments: false|
+
+
+<div class='post'>
+<p style="text-align: center;">
+<a title="NDVI time series showing data from two sources by Celad Evra, on Flickr" href="http://www.flickr.com/photos/celadevra/2722378670/"><img class="aligncenter" src="http://farm4.static.flickr.com/3228/2722378670_f9fee9ebb1.jpg" alt="NDVI time series showing data from two sources" width="400" height="220" /></a>
+</p>
+<br/>
+<p style="text-align: left;">
+We often have to deal with NDVI time series like this.  What does it tell on earth?  Very little information can be identified from this figure and its subsets.  However, techniques like DFA allow us to dig some information on the fluctuation and its cause.
+</p>
+<br/>
+<p style="text-align: left;">
+Detrended Fluctuation Analysis (DFA) was first used in DNA analysis to identify whether the purine and pyrimidine base's distubution is scalable, or fractal.  Later it has been used by many to examine whether a bounded time series has fractal characteristics and is self-similar.  First of all the time series has to be converted to a random walk series using equation:
+</p>
+<br/>
+<p style="text-align: center;">
+<span class="math">X_{t} = \sum_{i=1}^{t}(x_{i}-\langle x_{i} \rangle)</math>
+</p>
+<br/>
+<p style="text-align: left;">
+Where <span class="math">\langle x_{i} \rangle</math> is a value within the range of the time series, or a variable that changes with the element in the time series according to certain rule.  This is the &quot;detrending&quot; step.  Once the series has been converted, one can split the whole series into a number of non-overlapping &quot;windows&quot;, each with a equal number of samples or length <span class="math">n</math>.
+</p>
+<br/>
+<p style="text-align: left;">
+Least Square fit is done to each of the windows to get the local trend.  The root-mean-squared deviation from the trend is called fluctuation:
+</p>
+<br/>
+<p style="text-align: center;">
+<span class="math">F(L) = \[\frac{1}{L}\sum_{i=1}^{L}(X_{i} - ai -b)^{2}\]^{\frac{1}{2}}</math>
+</p>
+<br/>
+<p style="text-align: left;">
+For different window size <span class="math">L</math> we can obtain different <span class="math">F(L)</math>.  On a log<span class="math">F(L)</math> vs. log<span class="math">L</math> plot, we have a straight line whose slope is <span class="math">\alpha</math> if the random walk has self-affinity.  The values of <span class="math">\alpha</math> have different meanings.  <span class="math">\frac{1}{2} &amp;lt; \alpha &amp;lt; 1</math> indicates that the fluctuation is correlated with time; while <span class="math">\alpha</math> close to 0.5 indicates white noise [1. Detrended fluctuation analysis. (2007, October 31). In Wikipedia, The Free Encyclopedia. Retrieved 13:15, August 1, 2008, from http://en.wikipedia.org/w/index.php?title=Detrended&#95;fluctuation&#95;analysis&amp;oldid=168313780].
+</p>
+<br/>
+<p style="text-align: left;">
+This technique is further used to identify whether there is identifiable trend in the variation of NDVI throughout years.  Telesca et al. (2005)[2. Luciano Telesca, Rosa Lasaponara, Antonio Lanorte, 1/f&#42; fluctuations in the time dynamics of Mediterranean forest ecosystems by using normalized difference vegetation index satellite data, Physica A: Statistical Mechanics and its Applications, Volume 361, Issue 2, 1 March 2006, Pages 699-706.] has utilised the technique and identified positive feedbacks and reduced adaptability in Italian forest ecosystem.  Note that NDVI has natural periodic fluctuation due to seasonality, before DFA is applied, one should first reduce this fluctuation from the data.
+</p>
+<br/>
+<p style="text-align: left;">
+This technique may also be applied in my study as I am also looking at NDVI trends.  Some spatial analysis may be added by using the technique on single pixels and/or &quot;windows&quot;.
+</p>
+<br/>
+<p style="text-align: left;"></p></div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+et
+</div>
+<div class='content'>
+打倒学术权威。哼。
+</div>
+</div>
+</div>
+
+

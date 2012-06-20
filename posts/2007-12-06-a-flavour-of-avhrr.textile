@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;A flavour of AVHRR&quot;|
+|date: 2007-12-06|
+|comments: false|
+
+
+<div class='post'>
+In the past few days I have been trying to find suitable software and process for AVHRR data processing. The METOP AVHRR format looks like an enigma. It should be compatible to AVHRR, but despite that I tried hard to find a tool to unpack the file, and even tried to write a Fortran program myself, I couldn't find anything that decodes the file downloaded from "CLASS":http://www.class.noaa.gov/.<br/><br/>What made the search not totally fruitless is a image processing tool, "BEAM":http://www.brockmann-consult.de/beam/, which works nicely with AVHRR and a number of other data files. I can use it to open AVHRR 16-bit and 8-bit Level 1b file (10-bit not tested yet), do some simple preprocessing and statistics, then export the file as GeoTIFF or other formats, which can be read by GRASS GIS + GDAL. It is worth noting that BEAM is free as in free speech software published under GPL *v3* and can run on any platform with Java Runtime Environment.<br/><br/>With the help of BEAM and GRASS I managed to produce my first AVHRR-derived NDVI image this afternoon. Seems I am finally on track. In the coming days there are a number of things that I can look at:<br/><br/>- AVHRR Pathfinder data, their advantages and limits, suggested by one of my supervisor;<br/>- Snow and ice cover mapping with AVHRR;<br/>- Time series data and change detection;<br/>- MODIS data and its interoperability with AVHRR.
+</div>
+
+

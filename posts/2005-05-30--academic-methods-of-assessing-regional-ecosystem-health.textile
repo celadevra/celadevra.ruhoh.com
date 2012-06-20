@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;[Academic] Methods of assessing regional ecosystem health&quot;|
+|date: 2005-05-30|
+|comments: false|
+
+
+<div class='post'>
+Ecosystem Health and Its Measurement at Landscape Scale: Toward the Next Generation of Quantitative Assessments<br/><br/>Seven tools and concepts can be used to assess regional ecosystem health: 1. the concept of ecosystem health; 2. innovative stochastic techniques for representing human disturbance and ecosystem response in landscapes, and the corresponding statistical tools for analyzing them; 3. representation of spatial biocomplexity; 4. innovative combination techniques of upper-echelon-based spatial scan statistic to detect, delineate, and prioritize critical study areas for evaluating and prioritizing causal factors and effects; 5. the capability of comparing and prioritizing a collection of entities in light of multiple criteria, using poset mathematics of partial order with rank frequency statistics, to provide multicriterion decision support; 6. extending data mining and visualization techniques to determine associations between geospatial patterns and ecosystem degradation at landscape scales; 7. comprehensive studies conducted on different types of regional ecosystems.<br/><br/>The challenge is to characterize, evaluate, and validate linkages between socioeconomic drivers, biogeochemical indicators, multiscale landscape pattern metrics, and quality of human life indicators.<br/><br/>Regional Vulnerability: A Conceptual Framework<br/><br/>It suggests that to conduct an integrated assessment on a regional ecosystem, we must use synergistic methods. Synergy is too difficult to measure now and too important to ignore. We can use vulnerablility as a middld-road means to assess health situation of a regional ecosystem.
+</div>
+
+

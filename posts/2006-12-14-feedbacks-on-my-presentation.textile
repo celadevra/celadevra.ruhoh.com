@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;Feedbacks on my presentation&quot;|
+|date: 2006-12-14|
+|comments: false|
+
+
+<div class='post'>
+Today I got feedbacks on my yesterday's presentation.  There are, as usual, more &quot;ticks&quot; than drawbacks.  However, my worrying was also proved true.<br /><br />Pros: nice structure and slide style (thanks to Beamer and LaTeX); good convey of project context; good delivery and efficient use of English language; good pacing; good handling of questions.<br /><br />Cons: a little too short (about only half as long as allowed); methodology too vague; better consider both social and natural &quot;resistance&quot; (but, I was talking about &quot;resilience&quot;?!).<br /><br />In a word, the cons mainly result from my limited effort on the methodology and planning of the project so far.  I will need to consider these parts soon.
+</div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+wenmang.k
+</div>
+<div class='content'>
+表扬
+</div>
+</div>
+</div>
+
+

@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;links for 2009-06-19&quot;|
+|date: 2009-06-19|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://royalsociety.org/page.asp?id=1110">royalsociety.tv - watch our events online</a>
+</div>
+<br/>
+<div class="delicious-extended">
+Got to know the website from Wired UK.
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/science">science</a> <a href="http://delicious.com/snakehsu/research">research</a> <a href="http://delicious.com/snakehsu/video">video</a> <a href="http://delicious.com/snakehsu/media">media</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

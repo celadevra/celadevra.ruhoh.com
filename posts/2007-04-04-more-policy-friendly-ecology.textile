@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;More policy-friendly ecology?&quot;|
+|date: 2007-04-04|
+|comments: false|
+
+
+<div class='post'>
+"Making ecological science policy-relevant: issues of scale and disciplinary integration":http://www.springerlink.com/content/n086m8543l301q83<br/><br/>One of the main reason that ecology study is not widely applied in policy making is that the two processes are carried out in very different scales. Experiments successful in smaller scales are not necessarily so in a larger scale. *Scaling* thus becomes an important issue in ecological studies.<br/><br/>Knowledge transfer between ecologists and policy-makers can only be done in an interdisciplinary way. However, it is still easier said than done. The difficulty is brought along by misunderstanding, misconception (from each other's perspective), and the neglegence of funding/evaluating agencies. The non-linearity of the ecosystem complicates policy-making more.<br/><br/>To realise these problems is the first step. The researchers from different disciplines must establish trust in each other, The funding system should make some changes to meet the demand of long-term ecological studies.<br/><br/>As an individual researcher, I think knowing more about policy-making process in the region/country is desirable. To make the research more useful for policy making, an accumulation of large-scale, long-term experiments and theories/models derived from them is necessary. It is not saying that a 3-year PhD program will not be useful. But to make the policy-makers know the meaning of the study and adopt corresponding policies, the researcher will have to do more work to get the idea crossed, and try to understand how the policy-makers think.
+</div>
+
+

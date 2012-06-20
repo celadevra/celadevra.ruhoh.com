@@ -1,0 +1,38 @@
+
+|layout: post|
+|title: &quot;Emergence, or merely a mistake?&quot;|
+|date: 2008-08-11|
+|comments: false|
+
+
+<div class='post'>
+When I conduct <a href="http://www.snakehsu.info/wordpress/?p=485" target="_blank">DFA</a> on my NDVI data, I found some interesting behaviour of the result.  Apparently the system behaves differently in different spatial scales, which is reflected in the fluctuation-temporal scale correlation and the slope of <span class="math">\text{log}F(L)/\text{log}L</math> (i.e. <span class="math">\alpha</math>).<br/><br/>The DFA result for the whole map is like the picture below, <span class="math">\alpha</math> is between 0.5 and 1, indicating a correlation between fluctuation and time.  But the pixel results are seemingly random (this is expected), and all have <span class="math">\alpha &amp;lt;&amp;lt; 0.5</math> (this is quite unexpected), indicating anti-correlations.<br/>
+<p style="text-align: center;">
+<img class="aligncenter" src="http://farm4.static.flickr.com/3230/2754422648_141ac93823.jpg" alt="DFA map result" width="400" height="166" />
+</p>
+<br/>
+<p style="text-align: center;">
+<img src="http://farm4.static.flickr.com/3092/2754544826_f9c60e64fb.jpg" alt="" width="400" height="355" />
+</p>
+<br/>
+<p style="text-align: left;">
+After examined the scripts and data in question I believe the design of the experiment has no fault that I could find.  I have also considered the possibility that <a href="http://www.physionet.org/physiotools/dfa/" target="_blank">nonstationarity and trend</a> may have effects on the result, but the NDVI data I used have already had seasonal trend eliminated, while nonstationarity is not likely to cause such dramatic change in <span class="math">\alpha</math>.  The result, if not a technical failure, will suggest that the system's behaviour at 8km (single pixel) and regional scales are different.  At the fine-grained scale, the fluctuation reduces as temporal scale increases, i.e. a fluctuation is likely to cause smaller and smaller fluctuations in the distant future.  But at coarser scale the behaviour is inversed, a fluctuation may cause larger and larger fluctuations at long intervals.
+</p>
+<br/>
+<p style="text-align: left;">
+It is possible that the system's behaviour at coarser scales is the result of relatively simpler interactions at finer scales, creating a phenomenon known as <a href="http://en.wikipedia.org/wiki/Emergence" target="_blank">emergence</a>.  But the question is, if it is really emergence, what is the critical scale that such behaviour shift takes place.  Besides, what I have now is at best correlation, are there any intrinsic mechanism that determine such emergence?  In ecology, has there been similar emergence taking place in the shift from community to biome scale?
+</p>
+<br/>
+<p style="text-align: left;">
+The system I'm studying is a pastoral socio-ecosystem.  If there is really emergence like this, does it suggest that the system at the farm scale is resilient but as a whole is not [1. There are some resilience researchers noted the problem of emergence, such as
+</p>
+<br/>
+<p style="text-align: left;">
+Allen, C.R., Gunderson, L. &amp; Johnson, A.R., 2005. The Use of Discontinuities and Functional Groups to Assess Relative Resilience in Complex Systems. <span style="font-style: italic;">Ecosystems</span>, 8(8), 958-966. and
+</p>
+<br/>
+<p style="text-align: left;">
+Folke, C., 2006. Resilience: The emergence of a perspective for social-ecological systems analyses. <span style="font-style: italic;">Global Environmental Change</span>, 16(3), 253-267.]?  This is a really intriguing question.  I just hope it is not raised from a false observation.
+</p></div>
+
+

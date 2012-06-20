@@ -1,0 +1,15 @@
+
+|layout: post|
+|title: &quot;Online Presence&quot;|
+|date: 2010-01-20|
+|comments: false|
+
+
+<div class='post'>
+<div class="posterous_autopost">
+从目前的状态看，yo2.cn 的恢复遥遥无期，写 blog 的地方总还是要有一个的。今天到 Tumblr 上看了一下，用来做万用收藏夹+杂记本很不错，而且自己以前的 Posterous 和 Blogger 也还闲置着，干脆都利用起来好了。Tumblr 用来做网摘，Posterous 用来记一些书摘、技巧之类，Blogger 用来写一些对样式要求高的，相对长篇的，可以考虑在网上流传的内容。三个 blog 分别输出，再用Feedburner 和 Pipes 合烧一些不同类型的 feed。墙？反正无论放什么地方被封都难免，blogbus 和 yo2.cn 也算是备了案，结果如何？会看我 blog 的人，这点困难还是难不倒的。 <br />
+<div style="font-size: 10px;">
+<a href="http://posterous.com/">Posted via email</a> from <a href="http://celadevra.posterous.com/online-presence-8">Celad Evra's Musing</a> <br />
+</div></div></div>
+
+

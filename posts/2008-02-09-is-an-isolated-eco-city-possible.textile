@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Is an isolated Eco-city possible?&quot;|
+|date: 2008-02-09|
+|comments: false|
+
+
+<div class='post'>
+<a href="http://www.sciencemag.org/cgi/content/full/319/5864/740" target="_blank">An article in Science</a> introduced China's effort in designing cities that consume less natural resources and are more ecosystem-friendly. This is a plausible proposal which addresses the most pressing environment problem in China. Among these cities that are still in planning phase, Dongtan on Chongming Island, Shanghai, is used by the article as an example.<br/><br/>From the description of the article, Dongtan will employ very different concepts of city development than the rest of greater Shanghai, e.g. carbon neutral and zero tailpipe emission. Yet the article did not mention how Shanghai as a whole would do when the Eco-city is being built, nor how Dongtan obtain energy and material its development needs.<br/><br/>The fact that Dongtan is on a island convinces me that it will require considerable input from surrounding area and further. Whether the city is truly eco-friendly depends not only on how people within the city live, but also how the city's demand influences the surrounding area. While Dongtan may serve as a model city, its impact on other cities needs closer studies. If Shanghai and other cities take a business as usual approach, their support to Dongtan will still cost dearly, though may be less that supporting a non-eco-city.<br/><br/>Thus I wonder if Dongtan's implication as a ``carbon neutral'' and zero car emission pilot area is limited. As these new Eco-cities will contain at most dozens of millions of people, how about the other hundreds of people that are in existing cities? Ideally, the new technologies used in these new cities have to feed back to existing &quot;old&quot; cities, but this would be very difficult if new technologies are developed in laboratory conditions. A better solution, I think, is for a group of adjacent cities begin to take actions that can mitigate environmental problems in the existing framework. The technology can be from a Eco-city, but the key is reducing environmental footprint of both the supporter and the supported.
+</div>
+
+

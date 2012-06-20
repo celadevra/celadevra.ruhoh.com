@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;links for 2009-01-28&quot;|
+|date: 2009-01-28|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.boston.com/bostonglobe/ideas/naps/">How to nap - Boston.com</a>
+</div>
+<br/>
+<div class="delicious-extended">
+Information on when to nap and for how long to serve different purposes
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/productivity">productivity</a> <a href="http://delicious.com/snakehsu/sleep">sleep</a> <a href="http://delicious.com/snakehsu/health">health</a> <a href="http://delicious.com/snakehsu/nap">nap</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

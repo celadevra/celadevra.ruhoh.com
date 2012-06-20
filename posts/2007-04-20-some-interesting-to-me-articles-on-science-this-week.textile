@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Some (interesting to me) articles on Science this week&quot;|
+|date: 2007-04-20|
+|comments: false|
+
+
+<div class='post'>
+*ENVIRONMENT: The Burning Issue*<br/><br/>David J. Lohman, David Bickford, Navjot S. Sodhi<br/><br/>"http://www.sciencemag.org/cgi/content/summary/316/5823/376":http://www.sciencemag.org/cgi/content/summary/316/5823/376<br/><br/>*Adapting to Tibet's Thin Air*<br/><br/>Ann Gibbons<br/><br/>"http://www.sciencemag.org/cgi/content/full/316/5823/365":http://www.sciencemag.org/cgi/content/full/316/5823/365<br/><br/>*ECOLOGY: Rapid Domestication of Marine Species*<br/><br/>Carlos M. Duarte, Nùria Marbá, Marianne Holmer<br/><br/>"http://www.sciencemag.org/cgi/content/summary/316/5823/382":http://www.sciencemag.org/cgi/content/summary/316/5823/382
+</div>
+
+

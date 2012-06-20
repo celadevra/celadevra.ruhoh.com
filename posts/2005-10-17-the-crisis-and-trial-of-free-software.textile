@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;The crisis and trial of free software&quot;|
+|date: 2005-10-17|
+|comments: false|
+
+
+<div class='post'>
+Before I never realized that free softwares are in such a hard circumstance. Only after I heard Richard M. Stallman's speech, and had some experience in using GNU/Linux, did I realize that many people just do not understand the meaning of free software, free spirit, free as in freedom.<br/><br/>Many people just mixed free software concept with OpenSource. In fact, they are very different. RMS says that OpenSource does not have enough emphasis on freedom. He is not being paranoid on words. There are software opensource but not free. Redhat Linux, Redflag Linux are just some appropriate examples.<br/><br/>Therefore, a urgent mission for Free Software Foundation is to tell people the real meaning of software freedom. And tell them just opening source is not enough.
+</div>
+
+

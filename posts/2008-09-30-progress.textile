@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Progress&quot;|
+|date: 2008-09-30|
+|comments: false|
+
+
+<div class='post'>
+Recently I have managed to derive a dynamic model for my research area, imitating a model proposed by Ludwig et al. (2002) [3.   D. Ludwig, B. H. Walker, and C. S. Holling. <em>Resilience and the Behavior of Large-Scale Systems</em>, chapter 2 Models and metaphors of sustainability, stability, and resilience. Island Press, Washington, D.C., 2002] for a rangeland.  Now I find that it is producing a range of interesting results.  More importantly, I think I can defy accusation that the model is manipulated to produce domains of attractions.  The hysteric behaviour and the appearance of domains of attraction/resilience are emerging from classic dynamic model functions, this is what I call fascinating.<br/><br/>The next step would be setting a range of scenarios, with different sets of parameters, see the behaviour and resilience of the system in these settings.<br/><br/>Furthermore, combining it with what I derived from remote sensing images collected for the last few decades, the model can go spatial to some extent.  Use the remote sensing image to determine the initial state for each pixel, run the model on them, with a specified parameter set for each type of pixels, the result may be very interesting.  Of course the computation would also be intense.  I need also to think about a) how do I verify the model and b) how do I parametrise the different situations for different pixels.
+</div>
+
+

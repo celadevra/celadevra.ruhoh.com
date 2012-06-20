@@ -1,0 +1,44 @@
+
+|layout: post|
+|title: &quot;Idea Retailer&quot;|
+|date: 2007-01-17|
+|comments: false|
+
+
+<div class='post'>
+Today I had a meeting with my supervisors concerning my research proposal for funding applications.  I should say it is the first time I write a proposal for _real_ funding application.  And what I learned back in China is quite different from the conventions here.  The comments given by my supervisors include:<br /><br/>
+<ul>
+<br/>
+<li>
+Put research aim at first, then a little saucy background, then objectives, then methodology;
+</li>
+<br/>
+<li>
+Emphasise interdisciplinary research and justification on the reason to use them;
+</li>
+<br/>
+<li>
+Put site selection in a separate section instead of in methodology;
+</li>
+<br/>
+<li>
+Use precise figures in budget estimations, and be prepared to spend a lot in the field even if the price level is low there;
+</li>
+<br/>
+<li>
+Use Gantt Chart-like figures in the schedule part, illustrating fieldwork only;
+</li>
+<br/>
+<li>
+Be more specified;
+</li>
+<br/>
+<li>
+State that I will follow the School's health and safety guidelines (with URL).
+</li>
+<br/>
+</ul>
+<br/>In a word, what I am trying to do is selling my idea.  So I need to make a good packaging.
+</div>
+
+

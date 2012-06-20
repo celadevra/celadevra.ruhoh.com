@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;One small tiny grainy milestone&quot;|
+|date: 2006-06-18|
+|comments: false|
+
+
+<div class='post'>
+Yesterday I thought I made some sensible results from the model I am working on. However, today I realised that the water head exceeding land surface is a kind of scenario: you have intact peat layers but no vegetation at all, thus no interception of moisture by plants, nor enhanced storage by <i>Sphagnum</i>. Besides, I should assume a constant head layer below all layers so the precipitation can finally be received at this depth. Though adding this layer do not change the flooding at the surface, I think this model illustrates the influence of topography -- some areas with high elevation will eventually go dry.<br/><br/>The most important thing for <i>Sphagnums</i>, cannot be found out at this layer.  For them to grow, the peat layer must have water present.  The critical problem thus is the water head in the acrotelm.  Thus I made another model with only two layers: one acrotelm and one constant head (a reservoir) below it.  The simulation shows how deep water draws down in different locations.  I'll try tomorrow make it a transient model so I can observe the process.  <br/><br/>At this moment I think I will forget about that model for one night and do something else for a change. 
+</div>
+
+

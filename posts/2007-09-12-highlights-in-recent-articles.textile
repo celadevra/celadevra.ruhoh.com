@@ -1,0 +1,15 @@
+
+|layout: post|
+|title: &quot;Highlights in recent articles&quot;|
+|date: 2007-09-12|
+|comments: false|
+
+
+<div class='post'>
+<ul>
+<li>"What is the Value of a Good Map? An Example Using High Spatial Resolution Imagery to Aid Riparian Restoration":http://www.springerlink.com/content/953308008086wv32/<br/><br/>QuickBird satellite images are used to map harvested and intact forests. The difference between coarse and fine resolutions are studied. The implications of map errors are also examined by modifying confusion matrix to create a ``cost error matrix''.<br/><br/>&#42; "Quantifying search effort of moving animals at several spatial scales using first-passage time analysis: effect of the structure of environment and tracking systems":http://www.blackwell-synergy.com/doi/abs/10.1111/j.1365-2664.2007.01370.x<br/><br/>This article has both theoretical and methodological implications: the advantages and limitations of first-passage time analysis (FPT) are assessed. FPT was able to detect changes of movements and area-restricted search (ARS) in various scales.
+</div>
+
+</li>
+</ul>
+

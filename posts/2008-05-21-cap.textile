@@ -1,0 +1,36 @@
+
+|layout: post|
+|title: &quot;CAP 政策、粮食市场和环境&quot;|
+|date: 2008-05-21|
+|comments: false|
+
+
+<div class='post'>
+日前，欧盟委员会（European Commission）提出方案，要对其 Common Agriculture Policy （CAP）进行修订，目的在于<a href="http://news.bbc.co.uk/1/hi/business/7409739.stm" target="_blank">使农业生产更贴近市场需求</a>，同时<a href="http://news.bbc.co.uk/1/hi/sci/tech/7409273.stm" target="_blank">缓解食品供应的紧张状况</a>。修订方案的主要内容包括如下几条：<br/>
+<ul>
+<br/>
+<li>
+减少对大农场主的补贴；
+</li>
+<br/>
+<li>
+停止对农民休耕（set-aside）的补偿制度；
+</li>
+<br/>
+<li>
+逐步增加奶制品生产配额直至2015年完全放开；
+</li>
+<br/>
+<li>
+将节省下来的资金用于乡村建设和与环境有关的项目；
+</li>
+<br/>
+</ul>
+<br/>CAP 可能是欧盟内最大和最富争议的财政项目，用于 CAP 项目的资金每年超过400亿欧元。CAP 最初是欧洲为了解决战后粮食短缺的问题，用补贴鼓励粮食生产而设立，而且卓有成效：欧洲出现了粮食富余，欧洲人可以用较低的价格购买食品。在2004年为了解决粮食过剩的问题，CAP 开始引入休耕补贴等制度。2005年我在英国的 Peak District 就见过一位幸福的农民，他只要管理好自己土地上的野生石楠就可以拿到足以养活一家人的补贴，根本不需要他把自己的羊卖掉。但是无论在2004年改革前后，高额的津贴实际上都扭曲了市场，使欧洲的农产品可以按低于实际成本的价格在世界市场上出售，这大大伤害了世界其他地方的，特别是发展中国家的农民。而2004年后的政策也没有鼓励欧盟内部的粮食生产。最近由于美国等国家对生物燃料的补贴更加剧了粮食市场的供不应求状况，才使问题暴露出来。<br/><br/>对上涨的粮食价格表示了<a href="http://www.economist.com/opinion/displaystory.cfm?story_id=11050146" target="_blank">深切忧虑</a>的《经济学人》杂志在本月1日就提出现在是<a href="http://www.economist.com/opinion/displaystory.cfm?story_id=11293923&amp;CFID=6403306&amp;CFTOKEN=79330447" target="_blank">减少 CAP 补贴的好机会</a>。在现在的市场条件下，减少的补贴反而给欧盟的农民提供了利益的刺激，同时世界其他地方也更有动力生产和出口农产品。即使像有些人认为的那样价格只是市场被扭曲的结果而不是纯粹的供应问题，改革后的 CAP 政策也更能反应市场实际的供需状况。但在美国等国家继续补贴生物燃料的情况下，CAP 补贴率降低对于欧盟外的农民提供了多少增加粮食生产的动力呢？在《经济学人》网站上有人评论说<br/>
+<p style="padding-left: 30px;">
+<cite title="From an orange farmer">Only yesterday we complained about mountains of butter, cereals and lakes of wine in the EU that went to waste. As an orange producer, I can assure you that I still receive cents for a kilo and have not seen any benefit of the rally in OJ futures. The price in the stores is many times what I receive. There is a disconnect between what the producer gets and what the consumer pays. This can not be explained by transportation costs or the retailer's mark up.</cite>
+</p>
+<br/>如果他的观察足够有代表性的话，也许还是有更多的人会转向生物燃料而不是粮食生产。当然也有这种可能性：他能卖出的橙子价格受到了欧洲便宜替代品的冲击，而商店里的橙汁价格是橙汁生产商对较高的需求的反应，或者这样说，一方面橙汁生产商不愿意提高价格从欧洲以外的供应者那里收购橙子，一方面橙子生产商转向其他生产继续导致供给不足<br/>，还是应该 blame CAP。不论是哪种情况，欧盟对于 CAP 的新提案应该是朝降低食品价格的方向走了正确的一步，但其广泛的效果可能还要经过一番国际贸易博弈才能看到。<br/><br/>新 CAP 相比2004年至今的政策可能有一个副作用，就是农民保护生物多样性和某些生态系统的积极性会降低。像我上文提到的农民，他的羊群规模在取消补贴后可能不足以给他与原来相当的收入，因此他可能会搬迁到别处或者索性放弃农业生产，从而放弃对 Peak District 一部分石楠草地的管理。还有一些濒危的鸟类一直是依赖农业生态系统而存在的，但增加粮食生产必然要求农业的集中化和高强度，包括休耕制度的取消，这都是对它们的生存不利的。不知道 ecocentricists 们这次面对关系人类性命的粮食问题会不会继续抱着生态系统和生物多样性至上的立场。也希望新 CAP （能通过的话）关于乡村发展和环境保护的提案能在这方面发挥作用。
+</div>
+
+

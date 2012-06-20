@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Millennium Ecosystem Assessment: Research Needs&quot;|
+|date: 2006-10-13|
+|comments: false|
+
+
+<div class='post'>
+The difficulty of ecological study lies in these facts: you need to quantify things that are difficult to quantify, measure large scale variations from small scale measurements, try to understand the whole complex system from interactions of two factors, which is the only process we can observe and understand so far. Another trend in ecology research is tying it to sociological aspects of the system. Less and less people think that we should consider society and ecosystem as two distinctive systems, instead, integrated approaches are taken by more and more people. Interdisciplinary research thus is earning a more important status these days. Some fundamental questions need to be answered, though not necessarily before practical strategies can be developed. Such theories including &quot;linking ecological diversity to ecosystem dynamics and, in turn, to ecosystem services underlying human well-being&quot;, which is of paramount importance and requires maybe generations of study.
+</div>
+
+

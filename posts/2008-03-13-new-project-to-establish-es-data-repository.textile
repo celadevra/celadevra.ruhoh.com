@@ -1,0 +1,33 @@
+
+|layout: post|
+|title: &quot;New project to establish ES data &quot;repository&quot;&quot;|
+|date: 2008-03-13|
+|comments: false|
+
+
+<div class='post'>
+From <a href="http://www.sciencedaily.com/releases/2008/03/080310110903.htm" target="_blank">ScienceDaily</a>:<br/><br/>GENESI-DR (Ground European Network for Earth Science<br/>Interoperations - Digital Repositories), an ESA-led, European<br/>Commission (EC)-funded two-year project, is taking the lead<br/>in providing reliable, easy, long-term access to Earth Science<br/>data via the Internet.<br/><br/>In practice, institutions have done the same thing at a much smaller scale -- within their organisation. From <a href="http://www.esa.int/esaEO/SEMDFQK26DF_index_0.html" target="_blank">the description</a>, it looks like Open Access of Earth Science data, which is quite exciting news for us in Europe. However,<br/><br/>GENESI-DR will allow scientists from different Earth Science<br/>disciplines located across Europe to locate, access, combine<br/>and integrate historical and fresh Earth-related data from<br/>space, airbourne and in-situ sensors archived in large<br/>distributed repositories.<br/><br/>Does this mean that it is only ``by Europeans, for Europeans''? It would be great if ESA can get the U.S. on board, who is at present the biggest RS and other ES data provider with some of the best equipment.
+</div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+Building an integrated geoinfo/intel platform &#124; SiGMA Cube
+</div>
+<div class='content'>
+[...] potential if the standards can be applied to civilian GIS products and data repositories, such as the one proposed by European Council and European Space Agency earlier this year.  The delivery and application of [...]<br><br>[WORDPRESS HASHCASH] The comment's server IP (69.89.22.132) doesn't match the comment's URL host IP () and so is spam.
+</div>
+</div>
+<div class='comment'>
+<div class='author'>
+Harrison
+</div>
+<div class='content'>
+God. I thought &quot;ESA&quot; was &quot;Ecological Society of America&quot;...
+</div>
+</div>
+</div>
+
+

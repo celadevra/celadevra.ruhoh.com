@@ -1,0 +1,39 @@
+
+|layout: post|
+|title: &quot;links for 2008-10-24&quot;|
+|date: 2008-10-24|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.sciencemag.org/cgi/content/full/322/5901/522">BIOFUELS: Eyeing Oil, Synthetic Biologists Mine Microbes for Black Gold -- Service 322 (5901): 522 -- Science</a>
+</div>
+<br/>
+<div class="delicious-extended">
+Ethanol from corn seems to be a dead end. However there are some exciting developments from the algae-fuel side of research. The problem is now largely a) efficiency and capacity, and b) bringing down the price.
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/energy">energy</a> <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/biofuel">biofuel</a> <a href="http://delicious.com/snakehsu/algae">algae</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://blog.wired.com/cars/2008/10/rolls-royce-con.html">Rolls-Royce Considers an EV. No, Seriously... &#124; Autopia from Wired.com</a>
+</div>
+<br/>
+<div class="delicious-extended">
+There are electro sports car already, now classy sedans.
+</div>
+<br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/energy">energy</a> <a href="http://delicious.com/snakehsu/environment">environment</a> <a href="http://delicious.com/snakehsu/luxury">luxury</a> <a href="http://delicious.com/snakehsu/automobile">automobile</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

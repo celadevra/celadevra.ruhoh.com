@@ -1,0 +1,14 @@
+
+|layout: post|
+|title: &quot;Two articles on interviews using an interpreter&quot;|
+|date: 2007-02-03|
+|comments: false|
+
+
+<div class='post'>
+Kapborg and Bertero (2002), @Using an interpreter in qualitative interviews: does it threaten validity?', <em>Nursing Inquiry</em> 9(1), 52--56.<br /><br />In qualitative research internal validity has high priority.&nbsp; Internal validity is achieved when the researcher demonstrate the reality of the participant through a consistent line and quatations from their interviews.&nbsp; This means that data are linked to their sources and illustrated by quotations, so the reader can establish that the conclusions and interpretations arise directly from them.<br /><br />External validity is more difficult to achieve.&nbsp; External validity includes that the findings should be transferable to other, similar situations (how similar?).<br /><br />Threats to validity: if the interpreter is not trained properly, does not have a full understanding of the particular research project, or has biased ideas, the quality of information may be distorted.<br /><br />Farooq and Fear (2003),@Working through interpreters', <em>Advances in Psychiatric Treatment </em>9, 104--109.<br /><br />Some profound emotions and psychiatric processes may be underestimated in the process of translation.<br /><br />The transformation by interpreter may include omission, addition, condensation, substitution, role exchange, altering closed/open question and normalisation.<br /><br />
+<hr />
+It seems that I have to work with an interpreter anyway.   The biggest worry is how the interpreter will influence the information given by the interviewees.  The issues mentioned above should be made known to the interpreters before the interview.
+</div>
+
+

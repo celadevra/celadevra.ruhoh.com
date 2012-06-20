@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;[Academic] Sustainability Indicators&quot;|
+|date: 2005-10-24|
+|comments: false|
+
+
+<div class='post'>
+In recent case study on Sustainable Indicators, I found Chinese way of implementing Sustainable Development is quite different from that of EU's. In Britain there is already a framework of Sustainability Indicators. But in China, there are only void concepts, reports and proposals. Very little practical work is done. This is disappointing, indeed. The idea of Sustainability Indicators is controversial. It is a reductionist way of assessing complex systems. When simplifying complex relationships between elements some information could be ignored. The interpretation of SIs may also be subjective. However, so far simplication is the best approach we have to assess complex systems. We have enough data for calculating a index indicating the system's state, driver and response. Therefore we can probably just try using simplication, discover problems in using the indicator set, and improve it. I do not think that Chinese policy makers should try to make a perfect framework of SIs, they should get down to work ASAP, set up a initial SI set and see what is its problem.
+</div>
+
+

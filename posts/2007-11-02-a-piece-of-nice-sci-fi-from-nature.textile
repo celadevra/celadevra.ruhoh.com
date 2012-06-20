@@ -1,0 +1,14 @@
+
+|layout: post|
+|title: &quot;a piece of nice Sci-fi from Nature&quot;|
+|date: 2007-11-02|
+|comments: false|
+
+
+<div class='post'>
+<a href="http://www.nature.com/nature/journal/v450/n7166/full/450134a.html">A sudden absence of bees : Article : Nature</a><br/>
+<p class="poweredbyperformancing">
+Powered by <a href="http://scribefire.com/">ScribeFire</a>.
+</p></div>
+
+

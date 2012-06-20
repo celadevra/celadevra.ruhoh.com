@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Thoughts about dissertation&quot;|
+|date: 2006-02-21|
+|comments: false|
+
+
+<div class='post'>
+Luckily, the framework for the previous topic can largely be used in this topic.<br/><br/>But now I begin to doubt the suitability of WhyWhere model. How well can it simulate the distribution of Sphagnums? I will need the result for defining initial distribution and habitat preference. If it is not accurate enough, I will need a distribution map and various habitat parameters.<br/><br/>Besides, how do fire and overgrazing influence habitat characters and to what extent? How I change the parameters in the model? These remain questions and will need a lot of reading and thinking.
+</div>
+
+

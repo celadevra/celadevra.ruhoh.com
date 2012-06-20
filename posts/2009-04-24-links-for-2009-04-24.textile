@@ -1,0 +1,31 @@
+
+|layout: post|
+|title: &quot;links for 2009-04-24&quot;|
+|date: 2009-04-24|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://www.merzo.net/index.html">Jeff Russell's STARSHIP DIMENSIONS</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/sci-fi">sci-fi</a> <a href="http://delicious.com/snakehsu/fun">fun</a> <a href="http://delicious.com/snakehsu/art">art</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://fora.tv/">FORA.tv - Videos on the People, Issues, and Ideas Changing the Planet</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/video">video</a> <a href="http://delicious.com/snakehsu/media">media</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

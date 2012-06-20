@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Defining and studying complexity in ecosystems&quot;|
+|date: 2007-10-10|
+|comments: false|
+
+
+<div class='post'>
+There are some new projects relating to complexity studies in some UK Universities (e.g. "University of Bristol":http://bccs.bris.ac.uk/, "University of Warwick":http://www2.warwick.ac.uk/fac/cross_fac/comcom/). Although I doubt how many enrolled in these programs would know what are complexities in complex systems (in contrast to &quot;simple&quot; systems such as computers). At least I don't understand.<br/><br/>One interesting definition of complexity is the length of the shortest description of a series of the system's regularities. This definition can only be used in comparisons because it is not possible to cover all classes of regularities in a system. For ecosystems there may be a defined set of regularities that can be used to describe the complexity of the system.<br/><br/>For the moment we cannot tell how complexity of a system is linked to its unpredictability and surprises. We only know that a complex system may have these features: emergence, surprises, chaos, and paradoxum. Some tools are being developed to get a grasp of complex systems, but the success is still limited. These tools may be only suitable for a limited range of applications.<br/><br/>Can we at last deal with complexity in a scientific way? Possibly we can deal with it with more certainty as science develops. But a more likely scenario is that we incorporate uncertainty and complexity into the existing science system, just like what quantum mechanics did. Ecology and sociology recognising complexity may have a complete shift in the coming decades.
+</div>
+
+

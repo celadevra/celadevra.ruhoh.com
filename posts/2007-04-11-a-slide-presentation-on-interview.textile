@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;A slide presentation on interview&quot;|
+|date: 2007-04-11|
+|comments: false|
+
+
+<div class='post'>
+Office ladies please stop reading here and return to your search result immediately. This is *NOT* about how you tackle with job interviews nor how to make attracting presentation.<br/><br/>The slide provided "here":http://www.public.asu.edu/~kroel/www500/Interview%20Fri.pdf is about how to conduct interviews for qualitative research. The highlights including the checklist before and at the beginning of the interview, and issues about processing of interview data.
+</div>
+
+

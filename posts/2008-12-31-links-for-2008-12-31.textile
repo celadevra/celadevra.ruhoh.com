@@ -1,0 +1,31 @@
+
+|layout: post|
+|title: &quot;links for 2008-12-31&quot;|
+|date: 2008-12-31|
+|comments: false|
+
+
+<div class='post'>
+<ul class="delicious"><li>
+<br/>
+<div class="delicious-link">
+<a href="http://blog.wired.com/wiredscience/2008/12/evolutionexampl.html">Twelve Elegant Examples of Evolution</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/evolution">evolution</a> <a href="http://delicious.com/snakehsu/science">science</a> <a href="http://delicious.com/snakehsu/image">image</a>)
+</div>
+<br/>
+</li><li>
+<br/>
+<div class="delicious-link">
+<a href="http://news.bbc.co.uk/1/hi/sci/tech/7797818.stm">New Year to arrive a tick later</a>
+</div>
+<br/> <br/>
+<div class="delicious-tags">
+(tags: <a href="http://delicious.com/snakehsu/science">science</a> <a href="http://delicious.com/snakehsu/technology">technology</a> <a href="http://delicious.com/snakehsu/time">time</a>)
+</div>
+<br/>
+</li></ul></div>
+
+

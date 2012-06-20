@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;A better method to value ecological services?&quot;|
+|date: 2006-11-10|
+|comments: false|
+
+
+<div class='post'>
+This is a lecture given by James Boyd, a economist from Washington D.C.  He argues that present means in which the value of ecosystem services are measured is too complicated(, partly by ecologists who want to address many issues at one time).  His idea is to only calculate the &quot;final&quot; goods provided by ecosystem, the inputs, or intermediate goods to produce the final goods are ignored in the calculation.  Then we can determine the quantity of the goods.  The qualities of the goods are measured by a weighting system, depending on how people concerned evaluate such qualities.  The product of goods quantity and quality (weight) is the value of the given ecological service.<br /><br />I find the weighting system particularly interesting.  On the one hand, it is reductionist approach, and may bring some environmental justice problem, but James said this tool is not concerning environmental justice -- there should be other people/tool to deal with them;  on the other hand, I think the sum of weight is pre-determined by some total amount, such as the size of population, thus weighting means dealing with tradeoff and exclusive choices.  Now imagine ecosystem services A and B.  They have different weights but in one system they enhance each other and are inputs of each other.  What if a group of people want A sacrificing B and another think the other way round?  How do we measure the relative importance of A and B here?  James' explanation is that ecologists should let the decision makers know there is such implication and tradeoff exist, and such tradeoff can be considered by the policy makers.  In my opinion, I think the mutual enhancement of A and B can be represented using some kind of matrix algebra, though this will surely increase the complexity and compromise the merit of James' approach.
+</div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+wenmang.k
+</div>
+<div class='content'>
+已阅
+</div>
+</div>
+</div>
+
+

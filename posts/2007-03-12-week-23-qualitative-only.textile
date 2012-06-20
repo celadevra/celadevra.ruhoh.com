@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Week 23: Qualitative only?&quot;|
+|date: 2007-03-12|
+|comments: false|
+
+
+<div class='post'>
+Last week's literature research did not end up quite well, I have to say.  The biggest problem is that I find it hard to define a quantity for resilience.  You may find some quantitative indicators for resilience, but that does not mean you can use quantitative method globally.  <br /><br />There seems to be more concepts than formulas for these particular problem.  I do not know if I can do a project largely built on qualitative research while still being accepted by the thesis committee.  I believe that a suitable approach to combine both qualitative and quantitative characteristics is desirable and important.  <br /><br />For a variety of ecosystems, there have been successful examples of utilising resilience concept in management and research.  This, however, must be built on considerable support and data, as well as careful analysis.
+</div>
+
+

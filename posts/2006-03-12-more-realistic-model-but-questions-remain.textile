@@ -1,0 +1,40 @@
+
+|layout: post|
+|title: &quot;More realistic model, but questions remain...&quot;|
+|date: 2006-03-12|
+|comments: false|
+
+
+<div class='post'>
+The field trip and following discussion with my tutor have made my dissertation project more realistic now. The focus of the research now is on establishing initial state for the model. However, some questions must be answered to achieve this:<br/>
+<ol>
+<br/>
+<li>
+Is it reliable to predict distribution using a few witnesses? If yes, how many cases are needed and do they need to follow certain pattern?
+</li>
+<br/>
+<li>
+Is it reliable to establish distribution model using only hydrology and nutrient parameters? Can data from literature or site survey be used?
+</li>
+<br/>
+<li>
+The coarse grain distribution of Sphagnum? (So I know where to look for them during fieldwork)
+</li>
+<br/>
+<li>
+What shall I measure if I encounter Sphagnum colonies?
+</li>
+<br/>
+<li>
+Do I need research on burnt areas?
+</li>
+<br/>
+<li>
+Usage of MODFLOW model and justification;
+</li>
+<br/>
+</ol>
+<br/>Question 1-4 I will ask Jack for answers. The rest need more reading.
+</div>
+
+

@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Considerable Progress!&quot;|
+|date: 2006-06-13|
+|comments: false|
+
+
+<div class='post'>
+On the base of yesterday's trial, today I reduced the model area to Bleaklow only.  Surrounding areas are defined as inactive cells and holes in DTM are filled with elevation data from OS map.  The simulation now still cannot converge but the water budget gives good consistency (inconsistency about 0.01%).  The map of water head draw down and dry cells also make sense. <br/><br/>The question now I have is why the water table draw down so fast in just one day.  I would also like to know the storage coefficient of water in the soil -- absence of this parameter may lead to what I see in the simulation.  Maybe I should ask the authors of MODFLOW whether such rapid draw down is normal and if I ignored something in the simulation.
+</div>
+
+

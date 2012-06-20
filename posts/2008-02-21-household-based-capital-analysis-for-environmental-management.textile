@@ -1,0 +1,25 @@
+
+|layout: post|
+|title: &quot;Household-based capital analysis for environmental management&quot;|
+|date: 2008-02-21|
+|comments: false|
+
+
+<div class='post'>
+Alex de Sherbinin et al., “Rural household demographics, livelihoods and the environment,” Global Environmental Change 18, no. 1 (February 2008): 38-53.<br/><br/>The idea I get from this article is that it is possible to use a single household to study their environmental outputs and resource utilisation when the spatial scope of the research area is reasonably small so the homogeneity among most households in the area is significant enough.<br/><br/>The author defined 5 categories of wealth that can be obtained, held and utilised by households: natural capital, social capital, human capital, physical capital and financial capital. It is possible to analyse the interaction between environmental variables and the households' action on these capitals.<br/><br/>In rural area, this theory provides a possibility that by studying a single family's lifestyle and life history, the human-nature relationship can be identified even quantised. However, the author also point out to go beyond case study is the biggest challenge in front of this approach. How will different social and economic conditions influence these household? It is suggested that households should be studied within a broader social framework. The key, I think, is to identify the social heterogeneity within the same geographical location.
+</div>
+<h2>
+Comments
+</h2>
+<div class='comments'>
+<div class='comment'>
+<div class='author'>
+et
+</div>
+<div class='content'>
+巡视一番~
+</div>
+</div>
+</div>
+
+

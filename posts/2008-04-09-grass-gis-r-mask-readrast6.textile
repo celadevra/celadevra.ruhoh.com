@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;GRASS GIS 中的 r.mask 和 readRAST6&quot;|
+|date: 2008-04-09|
+|comments: false|
+
+
+<div class='post'>
+生成上篇记录里那种印花桌布的原因已经查明，修改后的脚本正在跑，应该最多只有些小问题了。<br/><br/>我早该想到的，就是我以为在 GRASS 中对图像进行 mask 操作以后，用 <code>as.vector(data.frame(readRAST6()))</code> 这样的操作得到的图像仍然是全幅的，缺少数值的地方用 NA 填充。事实上这个操作去掉了所有标记为 NA 的像素，留给我的只有少数几个像素而已。R 在这种情况下默认用重复较短的数组/矩阵来填充较长的，于是我就得到了漂亮的印花桌布-&#95;-<br/><br/>事实上 <code>readRAST6()</code> 本身返回的结果就是类似于 data frame 的结构，其中第一个变量是我们关心的属性，假设原来的栅格图像在 GRASS 中的名字叫 foo，导入 R 后的结构名称为 bar，则 bar 中这个变量的名字可以用 <code>names(foo)</code> 获得，可能是类似 &quot;Xfoo&quot; 这样的形式。在 R 下用 bar[[&quot;Xfoo&quot;]] 这样的形式引用就可以了（bar$Xfoo 大概也行）。<br/><br/>早上就写完了脚本，因为这个问题 debug 到半夜，当然主要还是对 R 不熟悉，其间也发现了一些脚本其他的问题。最近看一本国人写的 R 教材，有些我使用中知道的东西书上也没有提到。莫非 R 已经庞大到无法系统全面地描述其所有的功能了么？spgrass6 这个函数包的文档相当简陋，更让我有 R 的发展超过了文档编写的速度的感觉，这未必是件好事......<br/><br/>这个脚本总共要计算 540 &#42; 7 个图像，等它算完估计天亮了......我先去见周公，明天看结果，如果图好看的话补贴图。<br/><br/><a href="http://farm3.static.flickr.com/2112/2403280317_6323e1512f_o.png" class="lightview"><img src="http://farm3.static.flickr.com/2112/2403280317_6323e1512f_o.png" width="100" height="92" /></a>
+</div>
+
+

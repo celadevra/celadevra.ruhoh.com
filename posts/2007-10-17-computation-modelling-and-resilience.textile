@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;Computation, modelling and resilience&quot;|
+|date: 2007-10-17|
+|comments: false|
+
+
+<div class='post'>
+I just attended a (poorly organised) seminar on my university's computer cluster system. Presumably it can facilitate computation in my study, if any. It is easy to think about using it in some resilience models, I can add a lot of factors and agents in the model so the result would be ... so what?<br/><br/>Given enough time and opportunities to collect data I will be able to produce a reasonably good model for the dynamics of grasslands in Tibet. But to convince myself that this model can be actually used to describe the resilience difference between different management styles, I need to validate it. But how?<br/><br/>Usually we would put data from 200 years ago into the model, let the model simulate what happened in 100 years after that, then compare the output with what was actually there 100 years ago. If the comparison shows enough similarity between simulation and reality, suppose the key things determining the system's behaviour haven't changed, we can use the model to predict next 100 years from now on. But this is not always the case for resilience modelling. Itself tries to predict what would happen if key variables and system behaviour changes.<br/><br/>Therefore I think modelling should not be the end but a means in resilience study. Modelling helps us find key agents, variables, and behaviours in the system. God-willing, it would be easier to define domains of attraction and therefore resilience in the system.<br/><br/>For now, it seems plausible trying to build a model based on the findings up-to-date and see how management styles and environmental changes affect the system, thus identify the key variable.<br/><br/>I am considering using spatial or agent-based model to tackle this problem.
+</div>
+
+

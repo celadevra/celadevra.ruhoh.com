@@ -1,0 +1,12 @@
+
+|layout: post|
+|title: &quot;One point about stability and resilience&quot;|
+|date: 2007-04-15|
+|comments: false|
+
+
+<div class='post'>
+I have just read a few pages of Pimm's classic "_Food Webs_":http://www.amazon.com/Food-Webs-Stuart-L-Pimm/dp/0226668320/ref=pd_bbs_sr_1/104-9631600-9467103?ie=UTF8&s=books&qid=1176637864&sr=8-1. One of the examples used by Pimm to illustrate the idea of stability made me think about the difference between Pimm's stability and Holling's resilience notions.<br/><br/>From the example of England Song Thrush, it seems that stability is a numerical measure of _species_ characteristics, while resilience is a feature of the system as a whole. While one single species can have changes and come back to its equilibrium, for the system as a whole the equilibrium may be difficult to find or simply do not exist. While stability concerns the fluctuation of a single species or a series of species, it does not indicate whether the structure of the system changes as the species shift from their ``equilibrium''. Resilience, on the contrary, does not question how impact on one species affects this species, but the implications of the impact on the whole system.<br/><br/>My understanding of stability may change as I read more of Pimm's book. But for now I think I grasped some essence in these two concepts.
+</div>
+
+

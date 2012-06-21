@@ -4,8 +4,6 @@
 RuhohSpec: '1.0'
 theme : twitter
 production_url : http://idenizen.net/ruhoh
-baseurl: /
-url: http://idenizen.net/ruhoh
 
 posts:
   permalink: archive/:year/:month/:day/:filename

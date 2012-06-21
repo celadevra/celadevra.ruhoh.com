@@ -14,7 +14,7 @@ categories: Testing
 
 更多（再一次）测试
 
-``` .ruby
+~~~~~~~ .ruby
 
 require 'ruhoh/compilers/theme'
 require 'ruhoh/compilers/rss'
@@ -70,4 +70,4 @@ class Ruhoh
 
   end #Compiler
 end #Ruhoh
-```
+~~~~~~~

@@ -15,4 +15,4 @@ pages:
   permalink: 'pretty'
   exclude: '~$'
 
-env: 'dev'
+env: 'production'

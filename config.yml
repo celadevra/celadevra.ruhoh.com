@@ -15,4 +15,7 @@ pages:
   permalink: 'pretty'
   exclude: '~$'
 
+rss:
+  latest: 20
+
 env: 'production'

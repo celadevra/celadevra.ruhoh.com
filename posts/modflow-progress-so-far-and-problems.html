@@ -1,9 +1,0 @@
----
-layout: post
-title: "MODFLOW: Progress so far and problems"
-date: 2006-06-10
-comments: false
----
-
-<div class='post'>
-Today I finished inputing parameters to PMWIN and had a first run of the model.<br/><br/>It turns out that some of those characters may not be defined correctly.  The water budget for the area do not balance thus the simulation cannot continue after the first time step.  My first guess is that the boundary condition of the model is not correct: the rivers and streams should be constant head and the boundary of simulated area may be too low and should not be defined as active cells.<br/><br/>Individual modules may also have problems in their parameters.  Tomorrow I will look at the output file and determine the need to change.</div>

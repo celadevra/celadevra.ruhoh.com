@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-[中文](index.html)
+[中文](../index.html)
 
 ### Who am I?
 
@@ -29,7 +29,7 @@ has not been able to prepare us for peacefully accept different
 opinions.  Please forgive my skin-saving cowardice.
 
 To better put labels on me, you can also read
-[10 things I believe](ten-things-i-believe-en). 
+[10 things I believe](../ten-things-i-believe-en). 
 
 ### What is the blog about?
 

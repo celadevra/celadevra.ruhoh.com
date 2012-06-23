@@ -7,7 +7,7 @@ sharing: true
 footer: true
 ---
 
-[English](index-en.html)
+[English](index-en)
 
 ### 我是谁？
 

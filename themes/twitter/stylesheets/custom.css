@@ -1,0 +1,25 @@
+p.minorerrata{
+  background-image:url("../media/errata-minor.png");
+  background-repeat:no-repeat;background-size:80px 20px;
+  background-position:left center;
+  text-indent:90px
+}
+
+p.majorerrata{
+  background-image:url("../media/errata-major.png");
+  background-repeat:no-repeat;background-size:80px 20px;
+  background-position:left center;text-indent:90px
+}
+
+p.retracterrata{
+  background-image:url("../media/errata-retract.png");
+  background-repeat:no-repeat;
+  background-size:80px 20px;
+  background-position:left center;
+  text-indent:90px
+}
+
+p.erratadate{
+  color:#333333;
+  font-family:sans-serif;
+  font-weight:bold}

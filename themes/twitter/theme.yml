@@ -3,6 +3,7 @@
     "default" : [
       "bootstrap.min.css",
       "style.css"
+      "custom.css"
     ],
    
     "widgets" : {

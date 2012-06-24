@@ -6,6 +6,13 @@ sharing: true
 footer: true
 ---
 
+{:.erratadate}
+Sun Jun 24 09:43:20 CST 2012
+
+[Home](../)
+
+{:.minorerrata}
+修改 RSS 订阅地址为 Feedburner 地址。
 
 {:.erratadate}
 Mon Jun 18 18:27:52 CST 2012

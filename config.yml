@@ -18,5 +18,5 @@ pages:
 rss:
   latest: 20
 
-env: 'dev'
-#env: 'production'
+#env: 'dev'
+env: 'production'

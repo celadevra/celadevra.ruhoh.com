@@ -1,0 +1,13 @@
+---
+title: Archives
+description: A list of all posts
+---
+<ul class="tag_box inline">
+{{# categories }}
+  {{> categories_list }}
+{{/ categories }}
+</ul>
+
+{{# db.posts.collated }}
+  {{> posts_collate }}
+{{/ db.posts.collated }}

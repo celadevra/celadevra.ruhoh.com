@@ -1,0 +1,97 @@
+---
+title: 从 Octopress 到 Ruhoh
+date: '2012-06-24'
+description:
+categories: 器
+tags: [hacking, blog]
+
+---
+
+端午假期开始的时候，有人问我打算干啥，我说“写东西”。结果现在假期快要过去了，惭愧，我并没有写什么文章，倒是改了不少代码。
+
+事情是从我上周在 "V2EX":http://v2ex.com/ 闲逛时开始的，在问与答节点有人提问，请人提供["“不要自己搭，步骤简单”":http://www.v2ex.com/t/39963]的 Blog 去处。但不知道为什么几乎所有人都在推荐自己搭的方法⋯⋯这个算是 V2EX 用户群的通病吗？在讨论串里更有人给了这样一个链接，本着时间不能由我一人浪费的精神，我也把它写在这里，看你敢不敢点：["Pluskid 的 blog":http://freemind.pluskid.org/technology/the-unbearable-madness-of-static-blog-generators/]。
+
+看完之后，我也确实同意他提到的 Jekyll 和 Octopress 的缺点，其中 Liquid 模板的难以修改和因此造成的 Octopress 站点的千站一面也是我对 Octopress 的最大不满。另外 Octopress 不支持实时预览，在文章数较多的时候生成文件太慢，都是很大的缺点。同时，Octopress 的强大功能也意味着它依赖的 ruby gems 数量众多，造成修改和管理不便，这点在我上次改用 Pandoc 替代默认的 redcarpet 作为 markdown 解释引擎时就有体会。
+
+相比之下，ruhoh 看起来更简洁一些，而且它的插件机制看起来也简单些，至少不用读难懂的 Liquid 模板。于是我就按照项目主页上的说明，在 GitHub 上建立了自己的 ["ruhoh blog 代码库":https://github.com/celadevra/celadevra.ruhoh.com]。把原来数年的 blog 迁移过来虽然花了些时间，但是还算顺利。只有当我开始试图把它部署到自己的虚拟主机上才发觉 ruhoh 版本号里的那个 alpha 真不是白加的。
+
+h3. 部署路径问题
+
+Ruhoh 默认部署到作者提供的网址：(你的 GitHub 用户名).ruhoh.com。作者打算让它今后支持 AWS、Heroku、Dropbox 等多种部署方式，也包括自己架设的主机。那么具体如何做呢？作者说：
+
+bq..:http://ruhoh.com/usage/publish/ In the interest of shipping early and often I have shamefully neglected the Hosting part of the documentation.
+
+The good news is I know you developers are quite highly self-sufficient. I'm rushing to add in stunningly easy deploy methods, but until then you can read the Jekyll Custom Deploy Options as they will work exactly the same way. Just change _site for compiled
+
+p>. ??ruhoh usage docs: publish??
+
+p. 最后那个句号作者确实没有写，够粗心的⋯⋯我把生产的文件放到 http://idenizen.net/ruhoh 后，发现各种乱套，CSS 找不到了，导航也不好用了，因为默认的模板认为“/”是唯一合法的根路径，所以如果把它部署到一个虚拟服务器如 ruhoh.idenizen.net，就不会有问题，但只要没有部署到根目录，就找不到文件。发现这个让我很是奇怪，因为配置里明明是有 @production_url@ 这个设置的，不知道为什么在这里不用上。这种时候只有通过代码回溯页面中的 URL 是如何生成的，ruhoh 简单明了的结构这时帮了大忙。我通过定义一个叫 @docroot@ 的变量，使源文件的解释器能够正确地插入 blog 所部署的实际位置，并且在配置文件中增加了一个变量 @dev_url@，在进行本地开发的时候起作用，免得本地预览链接到远程页面上去。
+
+后来发现作者设置 @production_url@ 的目的就是生成正确的 RSS 的链接，所以我的改动又弄坏了这个设置。反正这个 ruhoh 改好改坏都是自己要用的，还是想法改好吧。
+
+h3. RSS
+
+除了不能正确处理链接的问题，默认的 RSS 生成脚本的最大问题在于它把整个 blog 的所有内容都放进了 RSS。这样，我8年来写的几乎所有 blog 文章加起来就成了一个5MB多的文件（咦，看起来还真是不多）。这么大的 rss 文件多数网上的阅读器都是不支持的，因为太容易变成 DoS 攻击了。所以要对负责生成 RSS 的文件改动如下：
+
+bc. @@ -16,12 +16,12 @@ def self.run(target, page)
+              xml.title_ Ruhoh::DB.site['title']
+              xml.link_ Ruhoh::DB.site['config']['production_url']
+              xml.pubDate_ Time.now
+-             Ruhoh::DB.posts['chronological'].each do |post_id|
++             Ruhoh::DB.posts['chronological'].first(20).each do |post_id|
+                post = Ruhoh::DB.posts['dictionary'][post_id]
+                page.change(post_id)
+                xml.item {
+                  xml.title_ post['title']
+-                 xml.link "#{Ruhoh::DB.site['config']['production_url']}#{post['url']}"
++                 xml.link "#{post['url']}"
+
+后来又一想，不如把 RSS 里文章的输出数也做成可配置的吧：
+
+bc. @@ -16,7 +16,7 @@ def self.run(target, page)
+              xml.title_ Ruhoh::DB.site['title']
+              xml.link_ Ruhoh::DB.site['config']['production_url']
+              xml.pubDate_ Time.now
+-             Ruhoh::DB.posts['chronological'].first(20).each do |post_id|
++             Ruhoh::DB.posts['chronological'].first(Ruhoh::DB.site['config']['rss']['latest'].to_i).each do |post_id|
+                post = Ruhoh::DB.posts['dictionary'][post_id]
+                page.change(post_id)
+                xml.item {
+
+这样无论 FeedBurner 还是 Google Reader 都不会抱怨了。
+
+h3. 本地预览
+
+Octopress 理论上说也可以监视本地文件的改动并预览，但是我始终没有弄成功过。Ruhoh 的实时预览基本上是按照 Pluskid 那篇文章的方法弄的，但是可能是操作系统环境不同，他说只要装 @rack-livereload@ 就有 @guard@，我这里则要先安装 @guard@ 和 @guard-livereload@ 以及 @rack-livereload@ 才能预览。另外这时发现在 @env = 'production'@ 时启动 @rack@ 预览时，它找不到文件。经过反复比对 payload 和预览部分的代码，可以确定是由于请求的 url 这时带着 @docroot@ ，也就是“http://...”这部分，所以 ruhoh 就找不到这个 url 对应的 id 和文件路径了。解决方法就是判断当前环境是开发还是生产，如果是后者就把 URL 中多余的文字去掉：
+
+bc. @@ -16,7 +16,7 @@ def call(env)
+       return favicon if env['PATH_INFO'] == '/favicon.ico'
+       return admin if [Ruhoh.urls.dashboard, "#{Ruhoh.urls.dashboard}/"].include?(env['PATH_INFO'])
+-      id = Ruhoh::DB.routes[env['PATH_INFO']]
++      id = Ruhoh::DB.site['config']['env'] == "production" ? Ruhoh::DB.routes[env['PATH_INFO'].sub(/^\//, "#{Ruhoh.urls.docroot}/")] : Ruhoh::DB.routes[env['PATH_INFO']]
+       raise "Page id not found for url: #{env['PATH_INFO']}" unless id
+       @page.change(id)
+
+另外发现 Firefox 在 ruhoh 自带的 dashboard 中不能打开文章和页面列表，而 Safari 可以。用 Firebug 一看发现 Firefox 竟然不认识 Javascript 的 @this.@ 语法，只好按笨办法给它重新在 @dash.html@ 里写一下：
+
+bc. @@ -190,7 +190,7 @@
+     var Tabs = {
+       panes : document.getElementsByClassName('page-pane'),
+       nav : document.getElementById('nav'),
+-      listEntries : this.nav.children,
++      listEntries : document.getElementById('nav').children,
+       links : [],
+
+这是最看不懂的一个 bug，不知道有没有熟悉 Javascript 的高人能指点一下到底是怎么回事。
+
+真正要实时预览还是要切换到开发环境。因为要同时开着 @rackup@, @guard@, 又要用一个终端来操作 @git@ 和 @ruhoh@, 最好的办法还是装一个 @tmux@ 或者 @screen@ 。之后就一切顺利了，Emacs 里文件一保存，浏览器就自动刷新对应的页面，确实不错，本地编辑的便利和实时预览的直观，the best of both worlds。
+
+我对 ruhoh 的改动在["这里":https://github.com/celadevra/ruhoh.rb/commits/]和["这里":https://github.com/celadevra/celadevra.ruhoh.com/commits/]能看到。今后在使用中可能还会根据需要加一些功能，不过目前用起来已经很顺手了。而且在把5天的业余时间都投入到这个 hack 中之后，一时半会儿也没有继续折腾自己的打算。就先休息，休息一下。
+
+h3. Ruby 和 Textile
+
+之前对 Ruby 的感觉有点像看古代日本捕快用的十手，知道用好了会是一件利器，不过总觉得比较奇怪，也不敢深入了解。
+
+后来读 Paul Graham 的《黑客与画家》，看到他称赞 Ruby 是一种更接近 Lisp 的语言，也因为 Octopress 的关系，终于开始对 Ruby 感兴趣了。在 Static Blog Generator 这个领域，Ruby 和 Python 本来是不分高下，不过看 Hyde 等引擎的开发状况，已经很久没有什么进展，Python 3 和 2 的兼容性问题也始终让人不太放心 Python 的前景。虽然还没有正式开始学 Ruby，但这几天也算通过 ruhoh 了解了一点它的语法特色，似乎很符合我的思维方式，值得深入学下去。
+
+另外，在标记语言的选择上，虽然 Markdown 现在非常热门，但我觉得它的各种 Flavor 已经太多了，而且分裂严重，就算是语法元素支持最全的 @kramdown@ 也不能支持 Pandoc 的全部语法。究其原因，大概是因为 Markdown 的核心语法是为了增强可读性设计的，大家为了让它实现各种复杂的 html 元素，只好自出心裁开发扩展语法。所以我打算换用 Textile 作为主要的 blog 写作语言，只有在极少数情况下，比如把 Scrivener 里的长文直接拿来做 blog 文章，才会使用 Markdown，而且也会尽量把语法元素限制在 Markdown 原生支持，不依赖于具体解释器的范围之内。

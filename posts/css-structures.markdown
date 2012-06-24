@@ -23,3 +23,6 @@ body、layouts、general styles、custom classes、div、page 等几个章节或
 提出的原则，将 CSS 的结构按照 HTML 中出现的先后次序和层级列出，并详细
 定义各选择器的全“路径”。为了提高可读性，还应当适当缩进样式表，并将每个
 属性按字母顺序排列，各占一行。
+
+是否可以使用 `twitter-bootstrap` 这样的 CSS 框架呢？老鸟们的建议是最好
+先熟悉一下，再行使用。

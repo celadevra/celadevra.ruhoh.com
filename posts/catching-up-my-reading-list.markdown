@@ -21,9 +21,8 @@ Geology*上发表了英国学者的[研究](http://dx.doi.org/10.1016/j.marpetge
 iPhone 对电话公司所做的正如 Woz 在70年代对电话公司所做的。Woz
 对《纽约客》说：
 
-{% blockquote Steve Wozniak http://www.newyorker.com/reporting/2012/05/07/120507fa_fact_kushner?currentPage=all %}
-I understand the mind-set of a person who wants to do that, and I don’t think of people like that as criminals. In fact, I think that misbehavior is very strongly correlated with and responsible for creative thought.
-{% endblockquote %}
+> I understand the mind-set of a person who wants to do that, and I don’t think of people like that as criminals. In fact, I think that misbehavior is very strongly correlated with and responsible for creative thought.
+> <cite>Steve Wozniak http://www.newyorker.com/reporting/2012/05/07/120507fa_fact_kushner?currentPage=all</cite>
 
 至于 LulzSec
 仅仅因为别人说了几句关于他们偶像的不中听的话，就去黑掉别人网站的这种行为，可以说跟

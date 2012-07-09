@@ -8,11 +8,9 @@ tags: [net]
 
 Tunnelblick 用的 openvpn 似乎不能处理3500行以上的路由命令，所以只能用
 
-bc..
-python chnroutes.py -p mac
+bc. python chnroutes.py -p mac
 
 生成脚本 @ip-up@ 和 @ip-down@ 后，将它们拷贝到 Tunnelblick 的配置文件目录，并将所有者修改为 @root:wheel@ ，权限改为 @744@ ，并在 openvpn 配置文件最后加入
 
-bc..
-up ip-up
+bc. up ip-up
 down up-down

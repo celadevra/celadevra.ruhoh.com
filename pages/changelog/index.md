@@ -7,6 +7,14 @@ footer: true
 ---
 
 {:.erratadate}
+Mon Jul  9 18:06:54 CST 2012
+
+[Mac OS X 上 Tunnelblick 和 chnroutes 配置注意事项](../archive/2012/07/09/notes-on-tblick-and-chnr)
+
+{:.minorerrata}
+修正 typo。
+
+{:.erratadate}
 Sun Jun 24 09:43:20 CST 2012
 
 [Home](../)

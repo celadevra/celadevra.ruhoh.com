@@ -5,7 +5,6 @@ description:
 categories: 奠
 tags: [mountaineering, life]
 
-type: draft
 ---
 
 一起登过山的人喜欢互称兄弟，我没有和 VstarLoss 一起登过真正的山，所以我想，还是不要妄称自己是他的兄弟的好。而且，他这样的人，不应该有我这样浑浑噩噩的兄弟。

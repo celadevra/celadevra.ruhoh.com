@@ -14,3 +14,5 @@ bc. python chnroutes.py -p mac
 
 bc. up ip-up
 down ip-down
+
+[+另外 Tunnelblick 的选项中要把 Set Nameserver 这个选项改掉，否则 @up@ 和 @down@ 两个命令会被忽略。+]

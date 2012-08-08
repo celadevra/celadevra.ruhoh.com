@@ -5,6 +5,14 @@ comments: true
 sharing: true
 footer: true
 ---
+
+{:.erratadate}
+Wed Aug  8 19:34:01 CST 2012
+
+[用 Simplenote & friends 制作个人项目看板](http://idenizen.net/blog/archive/2012/08/08/personal-kanban-using-simplenote/)
+
+理顺了流程后修改了描述文字。
+
 {:.erratadate}
 Sat Jul 14 20:39:14 CST 2012
 

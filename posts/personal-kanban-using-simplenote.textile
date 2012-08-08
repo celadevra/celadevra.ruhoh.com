@@ -1,5 +1,5 @@
 ---
-title: 用 Simplenote & friends 制作项目看板
+title: 用 Simplenote & friends 制作个人项目看板
 date: '2012-08-08'
 description:
 categories: 器

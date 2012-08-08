@@ -1,0 +1,51 @@
+---
+title: 用 Simplenote & friends 制作项目看板
+date: '2012-08-08'
+description:
+categories: 器
+tags: [note, evernote, hacking, task, project]
+
+---
+最近迷上了用 ["TaskWarrior":http://taskwarrior.org/projects/show/taskwarrior] 管理任务。原先用的 Doit.im 没有什么不好，不过它的任务笔记都是跟单个任务绑在一起的，如果任务完成了，回头去查笔记就比较麻烦，而它的 API 现在也关闭了，不然我是很有些想写个同步它和 Org-mode 的应用的。
+
+当然，TaskWarrior 的笔记更加笨拙，你得用 @task $tasknumber annotate Blah blah@ 这样的语法添加笔记。但是和命令行的方便快捷比起来，这点功能上的不足不算什么。而且，在 *nix 环境下，总能有其他的工具来完成现有工具的非核心功能，而且可以完成得更好。
+
+需要项目笔记的主要原因，还是为了在完成单个任务的同时，能够了解自己在整个项目中处于什么位置，当前的任务对整个目标有什么样的影响。这样，笔记必须容易回溯和搜索，而且最好可以同时保存在本地和云端。这样，用来笔记的工具必然不能是传统的纸质笔记本，只有走软件工具这条路。考虑到这点，剩下的选择就只有 "Simplenote":http://simplenoteapp.com 和 "Evernote":http://evernote.com 了。
+
+再考虑和 TaskWarrior 形成快速连续的工作流，记笔记这个过程最好也能在命令行下完成。Evernote 在这点上没有简单的解决方案。因为我同时用 "bitlbee":http://www.bitlbee.org/main.php/news.r.html 和 "irssi":http://www.irssi.org/ 搭建了命令行下的 IM 工作台（你看出来了，我最近热爱在 Mountain Lion 下折腾命令行），所以可以用 "ifttt":http://ifttt.com/ 的 Gtalk bot 把笔记输入 Evernote。但是这个 bot 有太多用户在用了，所以经常不堪重负而下线，在 irssi 里经常出现发送的消息石沉大海的情况。
+
+所以我最后选择了 Simplenote，能想到它是因为前几天听 Podcast 的时候听到 Web 设计大神 "Jeffery Zeldman":http://www.zeldman.com/ 同时用 Evernote 和 Simplenote，后者他用得好像还更多些。Simplenote 的付费用户可以选择将笔记和 "Dropbox":https://dropbox.com/ 文件夹同步，这样就解决了在本地保存数据的问题。不过其实免费用户也有办法同时保留笔记的本地拷贝。
+
+而这就需要下面列出的 Simplenote 的朋友们了：
+
+* "Notational Velocity":http://notational.net/
+  它的方便之处在于同时支持 Dropbox 和 Simplenote 的同步。在设置中指定笔记的存放位置（我的是 @~/Dropbox/Project\ Kanban/@ ），同时把 Simplenote 的帐号填进去即可。放进指定文件夹的任何文本文件都会立即被同步到 Simplenote，所以不必为了这个功能买 Simplenote 的高级版了。
+
+* ==[ba|z]sh==
+  打开 @.bashrc@ 或 @.zshrc@ ，加上下面这段代码，然后就能用 @note project 笔记内容@ 这样的格式直接在命令行生成新笔记， @note weekly@ 生成每周任务完成情况的概览。
+
+bc. note() {
+  if [ $1 = "weekly" ]
+  then
+        task timesheet 2 > ~/Dropbox/Project\ Kanban/Week\ `date +%U`\ review.txt
+        echo "\n#kanban" >> ~/Dropbox/Project\ Kanban/Week\ `date +%U`\ review.txt
+  else
+        echo "$@[2,10000]" > ~/Dropbox/Project\ Kanban/`date +%F-%H%M-`$1.txt
+  fi
+    }
+    # 代码改写自 David Beckingsale 的 blog: http://davidbeckingsale.com/2011/08/12/adding-notes-to-simplenote-via-the-command-line-and-dropbox.html
+
+* Mac OS X Finder
+  在图标模式下是可以设置每个文件夹的背景图的。背景图分三栏，分别标注 backlog，doing 和 done，然后把相应的笔记文件当成卡片拖放到这三栏中，你就有了一个穷人的电子看板，还可以用 Finder 本身的功能标记个颜色什么的。如果比较在乎形式，那么在生成笔记的时候，记得给笔记加个标签，比如 @$ note home "Remember the milk #kanban"@，后面的 @#kanban@ 就是标签，注意这个和 Notational Velocity 及 Simplenote 的标签三者都是不同的概念，目前还没有找到同步它们的办法。然后，你就可以用 Finder 的搜索功能，在内容中搜索 @#kanban@ 标签和更加细化的 @#backlog@ @#doing@ @#done@ 等标签，把搜索结果分别放到不同的 Smart Folder 里。
+
+* "Scrivener":http://www.literatureandlatte.com/scrivener.php
+  如果你的工作涉及到任何形式的书写，买 Scrivener 的45美元可以是你最好的一笔投资。在这里，相关的功能是 Scrivener 可以用看板的形式显示一个集合中的文件。需要做的就是分别导入 backlog，doing 和 done 等等文件夹里的文件，再将 Corkboard 视图垂直分割，分别显示不同的文件夹，如图所示：
+
+p=. <a href="http://www.flickr.com/photos/celadevra/7738677908/" title="scrivener_as_kanban.png by Celad Evra, on Flickr"><img src="http://farm9.staticflickr.com/8427/7738677908_2d4117a635.jpg" width="500" height="313" alt="scrivener_as_kanban.png"></a>
+
+这套方案对我个人来说应该已经比较顺手了，不足的地方还有这么几条：
+
+* Simplenote 需要“科学上网”，手机平板查看不够方便
+* Scrivener 最多只支持两栏分割，也不支持 Binder 中的文件夹和文件系统中的文件夹同步，所以这个看板功能不够全也不够自动化
+
+其实，如果不需要用图形化的方式来使用看板，不用 Simplenote 和 Scrivener 也可以，直接在笔记文件夹中组织文件就可以了。如果不在乎数据没有实时的本地拷贝，不需要离线笔记，或者需要跟其他人协作弄项目的，可以看看 "Trello":https://trello.com/ 合不合口味，这个网站的背后可是软件大神 "Joel Spolsky":http://www.joelonsoftware.com/items/2012/01/06.html 哦。

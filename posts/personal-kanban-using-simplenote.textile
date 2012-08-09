@@ -39,7 +39,7 @@ bc. note() {
   在图标模式下是可以设置每个文件夹的背景图的。背景图分三栏，分别标注 backlog，doing 和 done，然后把相应的笔记文件当成卡片拖放到这三栏中，你就有了一个穷人的电子看板，还可以用 Finder 本身的功能标记个颜色什么的。如果比较在乎形式，那么在生成笔记的时候，记得给笔记加个标签，比如 @$ note home "Remember the milk #kanban"@，后面的 @#kanban@ 就是标签，注意这个和 Notational Velocity 及 Simplenote 的标签三者都是不同的概念，目前还没有找到同步它们的办法。然后，你就可以用 Finder 的搜索功能，在内容中搜索 @#kanban@ 标签和更加细化的 @#backlog@ @#doing@ @#done@ 等标签，把搜索结果分别放到不同的 Smart Folder 里。
 
 * "Scrivener":http://www.literatureandlatte.com/scrivener.php
-  如果你的工作涉及到任何形式的书写，买 Scrivener 的45美元可以是你最好的一笔投资。在这里，相关的功能是 Scrivener 可以用看板的形式显示一个集合中的文件。需要做的就是[-分别导入 backlog，doing 和 done 等等文件夹里的文件-][+与笔记文件夹同步，然后在 Scrivener 中搜寻带有需要的标签的文件并保存为智能集合+]，再将 Corkboard 视图垂直分割，分别显示不同的[-文件夹-][+集合+]，如图所示：
+  如果你的工作涉及到任何形式的书写，买 Scrivener 的45美元可以是你最好的一笔投资。在这里，相关的功能是 Scrivener 可以用看板的形式显示一个集合中的文件。需要做的就是[-分别导入 backlog，doing 和 done 等等文件夹里的文件-][+与 Simplenote 同步，然后在 Scrivener 中搜寻带有需要的标签的文件并保存为智能集合+]，再将 Corkboard 视图垂直分割，分别显示不同的[-文件夹-][+集合+]，如图所示：
 
 p=. <a href="http://www.flickr.com/photos/celadevra/7738677908/" title="scrivener_as_kanban.png by Celad Evra, on Flickr"><img src="http://farm9.staticflickr.com/8427/7738677908_2d4117a635.jpg" width="500" height="313" alt="scrivener_as_kanban.png"></a>
 

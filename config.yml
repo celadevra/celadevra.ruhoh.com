@@ -7,7 +7,7 @@ production_url : 'http://idenizen.net/blog'
 base_path : "/blog"
 
 posts:
-  permalink: /archive/:year/:month/:day/:filename
+  permalink: /archive/:year/:month/:day/:filename/
   summary_lines: 20
   latest: 10
   exclude: '~$'

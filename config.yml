@@ -2,7 +2,7 @@
 # Usage: http://ruhoh.com/usage/configure/ 
 
 RuhohSpec: '1.0'
-theme : twitter
+theme : neotwitter
 production_url : 'http://idenizen.net/blog'
 base_path : "/blog"
 

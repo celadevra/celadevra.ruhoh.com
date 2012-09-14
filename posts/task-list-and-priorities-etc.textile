@@ -5,7 +5,6 @@ description:
 categories: 道
 tags: [task management, goal, career, work]
 
-type: draft
 ---
 
 各种任务管理软件多如过江之鲫，不过其中的一些似乎忘了，如果任务管理的目的只是完成一个接一个的任务的话，那各种 todo list 都不必存在，我们只要把任务一个一个完成就好了。

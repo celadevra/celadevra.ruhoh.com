@@ -5,7 +5,6 @@ description:
 categories: 器
 tags: [ruby]
 
-type: draft
 ---
 
 这周 GeekDad 的["题目":http://www.wired.com/geekdad/2012/09/geekdad-puzzle-of-the-week-anagramatic-products/]。

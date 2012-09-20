@@ -1,0 +1,34 @@
+---
+title: 寻找回文数
+date: '2012-09-20'
+description:
+categories: 器
+tags: [ruby]
+
+type: draft
+---
+
+这周 GeekDad 的["题目":http://www.wired.com/geekdad/2012/09/geekdad-puzzle-of-the-week-anagramatic-products/]。
+
+编了个 Ruby 脚本来算：
+
+bc.. def getproduct(origin)
+  return (2..9).collect {|amp| origin * amp}
+end
+
+def compare(origin)
+  times = 0
+  products = getproduct(origin)
+  products.each do |product|
+    if origin.to_s.each_char.sort === product.to_s.each_char.sort
+      times += 1
+    end
+  end
+  if times >= 2
+    puts "Found! #{origin} with #{times} anagrams"
+  end
+end
+
+(1..1000000).collect {|val| compare(val)}
+
+p. 算出来的结果原来是熟悉的 142857。要证明什么样的数具有这样的性质似乎需要比较高深的["数论知识":http://www.newsmth.net/nForum/#!article/IQDoor/69490]。

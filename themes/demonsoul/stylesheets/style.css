@@ -40,11 +40,16 @@ html, body {
   position:relative;
   padding-top:10px;
   border-top:3px solid #eee;
+  width: 700px;
+  border-bottom: 1px dotted #eee;
+  padding-bottom:10px;
+  margin-bottom: 10px;
 }
 .post > h3.title span.date { 
-  position:absolute;
-  right:0;
-  font-size:0.9em;
+  position:relative;
+  right:0px;
+  float:right;
+  font-size:0.7em;
 }
 .post > .more {
   margin:10px 0;

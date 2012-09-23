@@ -20,12 +20,12 @@ p.retracterrata{
 }
 
 p.erratadate{
-  color:#333333;
-  font-family:sans-serif;
+  color:#777;
+  font-family:monospace;
   font-weight:bold}
 
 cite{
-  color:#555555;
+  color:#eee;
   font-family:"Times New Roman";
   font-size:90%;
   font-style:italic;

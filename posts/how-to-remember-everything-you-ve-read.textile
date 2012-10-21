@@ -1,0 +1,35 @@
+---
+title: How to remember everything I've read
+date: '2012-10-20'
+description:
+categories: 道
+tags: [knowledge, wiki]
+---
+
+In the process of writing blog, or for that matter, anything I put online for people to read, I often find myself at loss, when trying to remember a particular fact or assertion, which I remember reading somewhere the day before or last week, but cannot tell which day exactly, nor where I encountered it.
+
+Worse yet, I spend 3 hours each day reading, but most of what I read just slip out of my brain.  For example, I remember reading some interesting stories on ??New Scientist?? yesterday, but what are interest about them, I cannot remember now.
+
+A while ago, a colleague sent me an article about a coolant that can damage ozone layer making a comeback in the U.S. on the ??New York Times??.  I read it on the website.  When I try to locate it again, I opened nytimes.com in my browser, and type in "HCFC" and "UNEP" as the search keyword -- HCFC is the name of the coolant, and UNEP is the institution coordinating the effort to control the substance.  The search returns 60 results, but most are from the Green Blog, and I recall that the article is published as a long-form story, not what you usually see on Green Blog.  I opened a few links in the search result, they are not what I am looking for.  This is frustrating.
+
+Later I remembered that one of my colleague's name is mentioned in the article, so I typed that to search.  You guessed it.  ["The article":http://query.nytimes.com/gst/fullpage.html?res=9A06EFDB113BF932A15755C0A9649D8B63&n=Top/News/World/Countries%20and%20Territories/India&pagewanted=1&smid=pl-share] turned up immediately.
+
+This experience prompts me to think about how we retain valuable information that we found, perhaps not always details, but at least the path leading to the information.
+
+h3. What to remember?
+
+It is tempting to be able to point out to your friends that one of the superintendents of the Natural History Museum in London is actually a crook, when you stroll along the street in Kensington, SW7 5BD.  Better yet if you can pinpoint the page in ??A Short History of Nearly Everything?? on which Bill Bryson writes about this person.  But that at best makes you a Grand Master of Trivias.
+
+If you read something, but 20 minutes later you cannot tell what it was about, their are two possibilities: a) the material is of no particular interest to you; and b) the circumstance where you read it allows no sufficient absorption of the gist.  Unfortunately most stuff I read on the commuting train belongs to this category for one reason or another.  
+
+Either way, you probably do not want to remember those stuff.  The first condition that you remember something is that you create an image about it or reflect on it.  You can do this however distracting your surrounding is, and sometimes subconsciously.  Therefore, no need to remember things that fail to make you think.
+
+h3. And how?
+
+Being a proud Mac user, I use the aptly-named "Devonthink Pro Office":http://www.devontechnologies.com/products/devonthink/overview.html as an knowledge organizer.  However, it is not always by my side when I read stuff.  The collection, therefore, has to be done first with other means. 
+
+For most things I read (magazines, books), this should not be too much a problem, as there are established methods to refenrence them.  And I can establish the record on the move using ["Evernote":http://www.evernote.com].  Later, I can import the records into Devonthink, and get them better sorted out using Devonthink's arguably better organizing abilities.  
+
+The following is what I have always neglected before.  Devonthink Pro Office has "think" in the name, and it claims to help you think.  But what it does not do is replacing your thinking.  To make things real parts of your knowledge you have to write a critical piece about it.  Better yet, if you can contribute what you have learned to discussions with people who can debate at a similar level. 
+
+Thus, knowledge obtaining is not so difficult nowadays, but knowledge retention requires considerable effort and investment.  I plan to do it like this: when I read something of interest, I record it into Devonthink, and write notes on it.  Meanwhile, I maintain a personal wiki using "Mediawiki":http://www.mediawiki.org/wiki/MediaWiki, to keep notes on subjects and topics, and update them as I encounter new information.  From time to time I can write essays or take part in a debate, to use what I processed as knowledge.  A similar approach is keeping a series of ["notes":http://www.cscs.lsa.umich.edu/~crshalizi/notebooks/].  But I think Mediawiki is better for supporting more types of information.

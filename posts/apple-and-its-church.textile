@@ -2,7 +2,7 @@
 title: "Apple 的现实扭曲神殿"
 date: '2012-10-23'
 description:
-categories:议
+categories: 议
 tags: [computer, tablet]
 
 ---

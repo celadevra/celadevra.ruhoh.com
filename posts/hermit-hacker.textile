@@ -1,0 +1,12 @@
+---
+title: 黑客归田园
+date: '2012-10-31'
+description:
+categories: [器, 道]
+tags: [hacking]
+
+---
+
+The Setup 登出了一篇 ["Joey Hess":http://joeyh.name/] 的["访谈":http://joey.hess.usesthis.com/]，他是 Debian 的重要开发者之一，手里还有一堆["项目":http://joeyh.name/code/]。这样的黑客在一般的刻板印象里都得是躲在公寓房间里的宅男，被五六个显示器包围，用着100Mbps起的宽带。但是JH却说他在一台戴尔的9英寸上网本上完成大部分工作，而且是在偏僻的林子里拨号上网。为了适应9寸的屏幕，JH对他使用的 xmonad 窗口管理器进行了大量定制。
+
+实现基本的功能以后，硬件不再重要，重要的是能否用软件最大限度地发挥硬件的能力。

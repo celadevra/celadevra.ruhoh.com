@@ -1,0 +1,12 @@
+---
+title: Fundamental research or not
+date: '2012-11-13'
+description:
+categories: .
+tags: []
+
+---
+
+Should we invest a gigantic amount of money in fundamental researches just because we think one day we may find practical uses for them?  BBC called up a ["debate":http://www.bbc.co.uk/news/science-environment-20158256#] to try to answer the question.
+
+Considering our notorious short-sightedness, I believe that a large portion of funding should be reserved for fundamental researches.  Even from a utilitarian point of view, you neven know, the fundamental research may be needen by your practical problems sooner than you expect.  Just consider how long it took from Rutherford to Oppenheimer.

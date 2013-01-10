@@ -1,0 +1,22 @@
+---
+title: Flashing Mercury MW4530R with TTL
+date: '2013-01-06'
+description:
+categories: 器
+tags: [router, internet, hardware]
+
+---
+
+It feels like screwing up big time.
+
+During the New Year I bought a Mercury MW4530R router, so that I can set up a simple NAS to stream video to an Apple TV.  The original firmware has all the features that I need to set up the system, but I heard that MW4530R can use OpenWRT, which bring along bells and whistles such as BitTorrent downloading and a full-featured firewall backed by iptables, so I found the OpenWRT firmware from a Chinese forum and flashed it.
+
+It was mostly OK, except that any external hard drive cannot be plugged in.  I thought at first it was a problem of file system support.  When I tried to find the kernel modules for the file system I discovered that this custom firmware has a kernel that is not supported by any package I can find.  I tried to force install the kernel module, with no luck.  Then after another flash I find that the whole USB storage support may be faulty: when I plug in anything, device nodes with names like sd[a-z] constantly appears in the /dev path, but the real ones pointing to the drive itself are always shifting, from sda* to sdb* and so on.  And when I mount these devices, it gives me I/O errors when I try to list files.
+
+Here's when I made the big mistake.  I thought the official OpenWRT firmware for TP-Link WDR4310 (with almost identical hardware as MW4530R) would solve the problem, and it is reported that some people managed to flash MW4530R with the WDR4310 firmware.  What I need to do was to use a hex editor to change an identity string in the WDR4310 firmware from "4310" to "4530", and then use mtd tool from the OpenWRT firmware to flash it.  I downloaded and opened the WDR4310 firmware, did not find the string, thought "maybe it is already done", and flashed it anyway.  After reboot, the router was working, but I cannot enter the web admin interface.  A reset cleans the settings but I still cannot enter the interface.
+
+I spent the rest of the holiday trying to bring back the router with no luck.  When I check the firmware again, I realized that I need to look for 0x4310 and change it to 0x4530.  This may or may not be the reason of the failure.  Anyway, I decided to fallback to the last resort.  I purchased a USB-to-serial chip online, and went into the unexplored territory of serial communication with single-board hardwares.
+
+Fortunately the Chinese forum on router modding provides some guides to recovering with TTL interface on the board.  Most information needed is ["here":http://www.right.com.cn/forum/forum.php?mod=viewthread&tid=88895].  Although it assumes that one knows how to establish a connection to the COM ports.  A tutorial suggest that one should use SecureCRT, I think HyperTerminal will also do.  After connecting the TTL cable, connect the power supply to the router.  I was supposed to see the boot up message from SecureCRT, but no.  I tried to unconnect GND and the power supply, then connect the GND right after power, and it worked.  After the router boot up, I was given a busybox.  Another reboot, and quickly input "tpl" once I see "Autobooting ...", I'm finally in the TTL environment, the rest is simple.
+
+I did not bother to find out how to do this under Mac OS X, as I have a WinXP installation residing in VirtualBox.  It is actually easier in the VM, as I can see whether the USB is connected, and maintain Internet access when I have to assign static IP to use tftpd.
